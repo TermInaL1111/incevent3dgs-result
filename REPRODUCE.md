@@ -66,7 +66,7 @@ tar -xf depthEst_pretrained_model.tar  # Bingxin/Marigold, 4.9GB
 | tumvie.tar | 8.4 GB | TUM-VIE 数据集 (4个场景) |
 | depthEst_pretrained_model.tar | 4.9 GB | 深度模型 (可选, 用HF版本替代) |
 
-**跨境下载慢, 建议本地下载后 SCP:**
+**下载慢, 本地下载后 SCP:**
 
 ```bash
 scp event_replica.tar tumvie.tar depthEst_pretrained_model.tar root@<SERVER>:/data/
