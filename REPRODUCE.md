@@ -35,8 +35,7 @@ pip install ninja
 ## 3. 下载权重和数据集
 
 ### 3.1 深度估计模型 (Marigold)
-
-**推荐**: 从 HuggingFace 下载 LCM 版本 (更快, 兼容):
+ 从 HuggingFace 下载 LCM 版本 :
 
 ```bash
 python -c "
@@ -51,7 +50,7 @@ pipe = DiffusionPipeline.from_pretrained(
 # 缓存路径: ~/.cache/huggingface/models--prs-eth--marigold-lcm-v1-0/
 ```
 
-或使用作者提供的权重:
+使用作者提供的权重:
 
 ```bash
 tar -xf depthEst_pretrained_model.tar  # Bingxin/Marigold, 4.9GB
