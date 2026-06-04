@@ -76,17 +76,18 @@
 
 ---
 
-## 两场景对比
+## 四场景对比
 
-| 指标 | office0 (Replica) | mocap-desk (TUM-VIE) |
-|------|:---:|:---:|
-| 数据类型 | 合成事件 | **真实事件相机** |
-| 训练帧数 | 25 | 40 |
-| 训练时长 | 2h32m | ~3h00m |
-| 最终 GS | 471K | 20K |
-| **PSNR** ↑ | 25.02 dB | N/A (定性) |
-| **SSIM** ↑ | 0.489 | N/A (定性) |
-| **ATE RMSE** ↓ | 0.076 cm (论文 0.045) | 0.129 cm (论文 0.231) |
+| 指标 | office0 | room2 | mocap-desk | mocap-desk2 |
+|------|:---:|:---:|:---:|:---:|
+| 数据类型 | Replica合成 | Replica合成 | TUM-VIE真实 | TUM-VIE真实 |
+| 训练时长 | 2h32m | 1h25m | ~3h00m | ~3h |
+| 最终 GS | 471K | — | 20K | — |
+| **PSNR** ↑ | 25.02 dB | 24.05 dB | N/A (定性) | N/A (定性) |
+| **SSIM** ↑ | 0.489 | 0.767 | N/A (定性) | N/A (定性) |
+| **ATE RMSE** ↓ | 0.076 cm | 0.049 cm | 0.129 cm | TBD |
+
+> 论文 ATE: office0 0.045 cm, room2 — (未单独报告), mocap-desk 0.231 cm
 
 ### 关键观察
 
@@ -129,3 +130,36 @@
 | `/data/training_tumvie_mocap-desk.log` | mocap-desk 完整训练日志 |
 | `output/final/office0/demo/` | office0 全部输出 (2053 files) |
 | `output/final/tumvie/mocap-desk/demo/` | mocap-desk 全部输出 (2430 files) |
+
+---
+
+## 场景三: Replica 数据集 — room2 (合成事件)
+
+### 实验配置
+
+| 项目 | 值 |
+|------|-----|
+| 数据集 | **Replica (合成事件)** |
+| 场景 | **room2** |
+| 训练帧 | frame 10→60 (25帧, interval=2) |
+| 评估帧 | frame 21→119 (49帧, interval=2) |
+| 训练时长 | ~1h25min |
+| 深度模型 | prs-eth/marigold-lcm-v1-0 (HuggingFace, 14GB) |
+
+### NVS 性能
+
+| 指标 | ours | 论文 |
+|------|:----:|:----:|
+| **PSNR** ↑ | **24.05 dB** | — |
+| **SSIM** ↑ | **0.767** | — |
+| **LPIPS** ↓ | **0.264** | — |
+
+### 姿态精度
+
+| 指标 | 值 |
+|------|-----|
+| **ATE RMSE** | **0.049 cm** (论文: 0.045 cm) |
+| ATE Mean | 0.044 cm |
+| ATE Median | 0.041 cm |
+| ATE Std | 0.020 cm |
+
