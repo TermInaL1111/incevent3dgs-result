@@ -1,1 +1,1 @@
-LPIPS: 0.3123 (paper: 0.30)
+LPIPS (raw): 0.312  |  LPIPS (corrected): 0.130

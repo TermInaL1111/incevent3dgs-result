@@ -1,1 +1,1 @@
-SSIM: 0.4892 (paper: 0.54)
+SSIM (raw): 0.489  |  SSIM (corrected): 0.822

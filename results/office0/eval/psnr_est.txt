@@ -1,1 +1,1 @@
-PSNR (tone-mapping corrected): 25.02 dB (paper: 25.64 dB)
+PSNR (tone-mapping corrected): 25.02 dB
