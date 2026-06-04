@@ -1,0 +1,1145 @@
+Start running...
+
+ ***************************************************
+ experiment name: demo
+ *************************************************** 
+
+Saving config and script...
+**************** total 40 frames ****************
+copying gt images
+valuating image number: 38
+timestamp: [np.float64(5.5587950809999995), np.float64(5.608906756999999), np.float64(5.658970934), np.float64(5.709027111), np.float64(5.759051288), np.float64(5.809052215999999), np.float64(5.859013395), np.float64(5.9089983230000005), np.float64(5.959015001), np.float64(6.009031678), np.float64(6.0589848570000004), np.float64(6.108874287), np.float64(6.158761717), np.float64(6.208701895), np.float64(6.258662324), np.float64(6.308599503), np.float64(6.358497183), np.float64(6.408387112), np.float64(6.458316291), np.float64(6.50830147), np.float64(6.5583336469999995), np.float64(6.608287075999999), np.float64(6.658152756), np.float64(6.707986936), np.float64(6.757876616), np.float64(6.807869544), np.float64(6.857933721), np.float64(6.907989898), np.float64(6.957998576), np.float64(7.007976004), np.float64(7.057952682), np.float64(7.10797736), np.float64(7.158041037), np.float64(7.208105464), np.float64(7.258138141), np.float64(7.308123069), np.float64(7.358107497), np.float64(7.408116425)]
+
+finished event loading!
+Scene scale(or size of bounding box): 3.0
+***** Gaussion init_type: random *****
+Model initialized. Number of GS: 100000
+CoSLAM finished initialization...
+
+0it [00:00, ?it/s]1it [00:01,  1.09s/it]************************ Estimate depth during initialization ************************
+#########################   random initialization   #########################
+*******************************  events_num: 4782152  *********************************
+incremental sampling number: 39
+****events_per_seg=97595, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.658970832824707
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934]
+============== initialize control knots with random noise ==============
+finish control knots initialization
+iter 0, loss=0.12045801510161255, event=0.09085791926831008, ssim=0.029495105147361755, white=0.00010499068594072014, noevent=0.0, tr=0.0
+iter 100, loss=0.09740916041308083, event=0.06882383219897747, ssim=0.028501597046852113, white=8.373116725124419e-05, noevent=0.0, tr=0.0
+iter 200, loss=0.1000825238932157, event=0.06922669436782598, ssim=0.030783113241195682, white=7.271628419402987e-05, noevent=0.0, tr=0.0
+iter 300, loss=0.09206762619171059, event=0.06247613362967968, ssim=0.029508796334266663, white=8.269622776424512e-05, noevent=0.0, tr=0.0
+iter 400, loss=0.08521246219665046, event=0.05586747720837593, ssim=0.029259507060050968, white=8.547792822355404e-05, noevent=0.0, tr=0.0
+iter 500, loss=0.06388531154429075, event=0.037172138914465906, ssim=0.02657851457595825, white=0.00013465805386658758, noevent=0.0, tr=0.0
+iter 600, loss=0.06202425935945939, event=0.03485362509265542, ssim=0.02698321044445038, white=0.000187423822353594, noevent=0.0, tr=0.0
+iter 700, loss=0.05416536387812812, event=0.028856683261692523, ssim=0.025155859589576723, white=0.00015282102685887367, noevent=0.0, tr=0.0
+iter 800, loss=0.05918872496113181, event=0.034193125385791064, ssim=0.024876944422721866, white=0.00011865515261888504, noevent=0.0, tr=0.0
+iter 900, loss=0.050577999466913756, event=0.027038891687989234, ssim=0.023400017619132997, white=0.00013909015979152173, noevent=0.0, tr=0.0
+iter 1000, loss=0.05062266156048281, event=0.026968940719962118, ssim=0.023574642539024356, white=7.90783014963381e-05, noevent=0.0, tr=0.0
+iter 1100, loss=0.04565349740936654, event=0.022463300470262765, ssim=0.023090488314628604, white=9.970862447516993e-05, noevent=0.0, tr=0.0
+iter 1200, loss=0.053645238660974426, event=0.029844322726130485, ssim=0.023698599934577944, white=0.00010231600026600063, noevent=0.0, tr=0.0
+iter 1300, loss=0.049581136164488275, event=0.026784192249178888, ssim=0.022725715637207034, white=7.122827810235322e-05, noevent=0.0, tr=0.0
+iter 1400, loss=0.05343628526257817, event=0.02946770951151848, ssim=0.02387571752071381, white=9.285823034588248e-05, noevent=0.0, tr=0.0
+iter 1500, loss=0.048333171449485235, event=0.025296519231051206, ssim=0.02296164333820343, white=7.500888023059815e-05, noevent=0.0, tr=0.0
+iter 1600, loss=0.04930473502434325, event=0.02570901922881603, ssim=0.023514841794967656, white=8.087400055956095e-05, noevent=0.0, tr=0.0
+iter 1700, loss=0.053588196359341964, event=0.029652044624090195, ssim=0.023824090957641604, white=0.00011206077761016786, noevent=0.0, tr=0.0
+iter 1800, loss=0.045548795474460356, event=0.02299690840765834, ssim=0.022450601458549505, white=0.00010128560825251043, noevent=0.0, tr=0.0
+iter 1900, loss=0.044519519339955876, event=0.02189687266945839, ssim=0.02254533648490906, white=7.731018558843061e-05, noevent=0.0, tr=0.0
+Step 2000: 46 GSs duplicated, 2040 GSs split. Now having 102086 GSs.
+Step 2000: 4591 GSs pruned. Now having 97495 GSs.
+iter 2000, loss=0.048824693159258456, event=0.025698227854445574, ssim=0.023038923740386963, white=8.75415644259192e-05, noevent=0.0, tr=0.0
+/data/IncEventGS/tools/eval_ate.py:223: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure()
+iter 2100, loss=0.051784900366037626, event=0.027639303337782622, ssim=0.02404836177825928, white=9.723524999571964e-05, noevent=0.0, tr=0.0
+iter 2200, loss=0.051793203148408795, event=0.02796199418604374, ssim=0.023746164441108705, white=8.504452125634998e-05, noevent=0.0, tr=0.0
+iter 2300, loss=0.04358869996154681, event=0.021189054418355228, ssim=0.022259759902954104, white=0.0001398856402374804, noevent=0.0, tr=0.0
+iter 2400, loss=0.04649428217089735, event=0.023465536646544934, ssim=0.02291281044483185, white=0.00011593507952056825, noevent=0.0, tr=0.0
+Step 2500: 217 GSs duplicated, 1851 GSs split. Now having 99563 GSs.
+Step 2500: 759 GSs pruned. Now having 98804 GSs.
+iter 2500, loss=0.04519476774876239, event=0.022674614815041422, ssim=0.02243847966194153, white=8.167327177943662e-05, noevent=0.0, tr=0.0
+iter 2600, loss=0.05083105438476196, event=0.027583120949566362, ssim=0.02314772665500641, white=0.00010020678018918261, noevent=0.0, tr=0.0
+iter 2700, loss=0.044274638580100154, event=0.021526446025818588, ssim=0.022672734856605533, white=7.545769767602906e-05, noevent=0.0, tr=0.0
+iter 2800, loss=0.040058476552658255, event=0.01832615526393056, ssim=0.021651912927627567, white=8.040836110012606e-05, noevent=0.0, tr=0.0
+iter 2900, loss=0.0459290997296921, event=0.023231246769428254, ssim=0.022627071142196656, white=7.07818180671893e-05, noevent=0.0, tr=0.0
+Step 3000: 583 GSs duplicated, 2387 GSs split. Now having 101774 GSs.
+Step 3000: 575 GSs pruned. Now having 101199 GSs.
+iter 3000, loss=0.04043822374602314, event=0.019402549425140022, ssim=0.020904524326324465, white=0.00013114999455865473, noevent=0.0, tr=0.0
+iter 3100, loss=0.04682843623624649, event=0.02489707363769412, ssim=0.021792696714401247, white=0.00013866588415112346, noevent=0.0, tr=0.0
+iter 3200, loss=0.03885443420876982, event=0.0190805109962821, ssim=0.019670640230178837, white=0.00010328298230888322, noevent=0.0, tr=0.0
+iter 3300, loss=0.03832976462959778, event=0.01829420741647482, ssim=0.019928219914436343, white=0.00010733729868661612, noevent=0.0, tr=0.0
+iter 3400, loss=0.04376099235843867, event=0.02380145637318492, ssim=0.019880327582359317, white=7.920840289443731e-05, noevent=0.0, tr=0.0
+iter 3500, loss=0.041111588682979344, event=0.02096979407593608, ssim=0.020064727663993837, white=7.706694304943085e-05, noevent=0.0, tr=0.0
+iter 3600, loss=0.03563907381263562, event=0.016430141665041448, ssim=0.01906763255596161, white=0.0001412995916325599, noevent=0.0, tr=0.0
+iter 3700, loss=0.03937004004837945, event=0.01964535119011998, ssim=0.019593520164489748, white=0.00013116869376972318, noevent=0.0, tr=0.0
+iter 3800, loss=0.037148689417808786, event=0.017021937733516096, ssim=0.020047148466110234, white=7.960321818245575e-05, noevent=0.0, tr=0.0
+iter 3900, loss=0.04014322462549899, event=0.020583475967869164, ssim=0.019451054334640505, white=0.00010869432298932225, noevent=0.0, tr=0.0
+iter 4000, loss=0.0424719230219489, event=0.022250837534666064, ssim=0.02005784630775452, white=0.00016323917952831835, noevent=0.0, tr=0.0
+iter 4100, loss=0.04611330864863704, event=0.024899311717599633, ssim=0.021143062710762026, white=7.093422027537599e-05, noevent=0.0, tr=0.0
+iter 4200, loss=0.03979950374050532, event=0.019399087550118564, ssim=0.020257222652435306, white=0.00014319353795144707, noevent=0.0, tr=0.0
+iter 4300, loss=0.03885157136013732, event=0.01858149915933609, ssim=0.02019056618213654, white=7.950601866468787e-05, noevent=0.0, tr=0.0
+iter 4400, loss=0.04445761562121334, event=0.02420177398249507, ssim=0.02018621921539307, white=6.962242332519963e-05, noevent=0.0, tr=0.0
+iter 4500, loss=0.04127964986051666, event=0.021125883162021637, ssim=0.02007677733898163, white=7.698935951339081e-05, noevent=0.0, tr=0.0
+********** Number of GS: 101199
+======================= finished initialization  =========================
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_deprecation.py:131: FutureWarning: 'cached_download' (from 'huggingface_hub.file_download') is deprecated and will be removed from version '0.26'. Use `hf_hub_download` instead.
+  warnings.warn(warning_message, FutureWarning)
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:672: FutureWarning: 'cached_download' is the legacy way to download files from the HF hub, please consider upgrading to 'hf_hub_download'
+  warnings.warn(
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:678: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_deprecation.py:131: FutureWarning: 'url_to_filename' (from 'huggingface_hub.file_download') is deprecated and will be removed from version '0.26'. Use `hf_hub_download` to benefit from the new cache layout.
+  warnings.warn(warning_message, FutureWarning)
+The config attributes {'prediction_type': 'depth', 'scale_invariant': True, 'shift_invariant': True, 'default_denoising_steps': 1, 'default_processing_resolution': 768} were passed to MarigoldPipeline, but are not expected and will be ignored. Please verify your model_index.json configuration file.
+Keyword arguments {'prediction_type': 'depth', 'scale_invariant': True, 'shift_invariant': True, 'default_denoising_steps': 1, 'default_processing_resolution': 768} are not expected by MarigoldPipeline and will be ignored.
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s][A
+Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00,  5.39it/s][A
+Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00,  8.36it/s][ALoading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  9.06it/s]
+
+  Inference batches:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+    Diffusion denoising:   0%|          | 0/10 [00:00<?, ?it/s][A[A
+
+    Diffusion denoising:  10%|█         | 1/10 [00:00<00:01,  4.55it/s][A[A
+
+    Diffusion denoising:  20%|██        | 2/10 [00:00<00:01,  5.23it/s][A[A
+
+    Diffusion denoising:  30%|███       | 3/10 [00:00<00:01,  5.51it/s][A[A
+
+    Diffusion denoising:  40%|████      | 4/10 [00:00<00:01,  5.65it/s][A[A
+
+    Diffusion denoising:  50%|█████     | 5/10 [00:00<00:00,  5.73it/s][A[A
+
+    Diffusion denoising:  60%|██████    | 6/10 [00:01<00:00,  5.78it/s][A[A
+
+    Diffusion denoising:  70%|███████   | 7/10 [00:01<00:00,  5.81it/s][A[A
+
+    Diffusion denoising:  80%|████████  | 8/10 [00:01<00:00,  5.83it/s][A[A
+
+    Diffusion denoising:  90%|█████████ | 9/10 [00:01<00:00,  5.84it/s][A[A
+
+    Diffusion denoising: 100%|██████████| 10/10 [00:01<00:00,  5.85it/s][A[A
+
+                                                                        [A[A
+  Inference batches:  50%|█████     | 1/2 [00:02<00:02,  2.27s/it][A
+
+    Diffusion denoising:   0%|          | 0/10 [00:00<?, ?it/s][A[A
+
+    Diffusion denoising:  10%|█         | 1/10 [00:00<00:03,  2.80it/s][A[A
+
+    Diffusion denoising:  20%|██        | 2/10 [00:00<00:01,  4.05it/s][A[A
+
+    Diffusion denoising:  30%|███       | 3/10 [00:00<00:01,  4.71it/s][A[A
+
+    Diffusion denoising:  40%|████      | 4/10 [00:00<00:01,  5.11it/s][A[A
+
+    Diffusion denoising:  50%|█████     | 5/10 [00:01<00:00,  5.35it/s][A[A
+
+    Diffusion denoising:  60%|██████    | 6/10 [00:01<00:00,  5.51it/s][A[A
+
+    Diffusion denoising:  70%|███████   | 7/10 [00:01<00:00,  5.62it/s][A[A
+
+    Diffusion denoising:  80%|████████  | 8/10 [00:01<00:00,  5.69it/s][A[A
+
+    Diffusion denoising:  90%|█████████ | 9/10 [00:01<00:00,  5.73it/s][A[A
+
+    Diffusion denoising: 100%|██████████| 10/10 [00:01<00:00,  5.77it/s][A[A
+
+                                                                        [A[A
+  Inference batches: 100%|██████████| 2/2 [00:04<00:00,  2.19s/it][A
+                                                                  [A/root/miniconda3/lib/python3.10/site-packages/scipy/optimize/_numdiff.py:619: RuntimeWarning: invalid value encountered in divide
+  J_transposed[i] = df / dx
+[initialization]: load depth map from output/final/tumvie/mocap-desk/demo/depth_data.npy
+#########################   initialization with depth_map   #########################
+Use provided depth map for scene initialization...
+***** Gaussion init_type: sfm *****
+*******************************  events_num: 4782152  *********************************
+incremental sampling number: 39
+****events_per_seg=97595, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.658970832824707
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934]
+============== initialize control knots with random noise ==============
+finish control knots initialization
+iter 0, loss=0.13221085764002055, event=0.09198301166296005, ssim=0.03951600551605225, white=0.0007118404610082507, noevent=0.0, tr=0.0
+iter 100, loss=0.09865353085537208, event=0.06931136343628168, ssim=0.029259386062622073, white=8.278135646833107e-05, noevent=0.0, tr=0.0
+iter 200, loss=0.10498737380403328, event=0.07546008594334126, ssim=0.02945764780044556, white=6.964006024645641e-05, noevent=0.0, tr=0.0
+iter 300, loss=0.08615743864269462, event=0.058207137063145634, ssim=0.027878341674804692, white=7.195990474428982e-05, noevent=0.0, tr=0.0
+iter 400, loss=0.05798649437288987, event=0.03215697839856148, ssim=0.025718680024147036, white=0.00011083595018135384, noevent=0.0, tr=0.0
+iter 500, loss=0.042828164386155554, event=0.02043527200818062, ssim=0.022294814586639407, white=9.807779133552685e-05, noevent=0.0, tr=0.0
+iter 600, loss=0.047326986873231364, event=0.024241928653791548, ssim=0.023004282116889957, white=8.077610254986212e-05, noevent=0.0, tr=0.0
+iter 700, loss=0.04704371272673598, event=0.024912624824792146, ssim=0.022054721117019657, white=7.636678492417559e-05, noevent=0.0, tr=0.0
+iter 800, loss=0.039255227220128294, event=0.01837773567996919, ssim=0.020784807205200196, white=9.268433495890349e-05, noevent=0.0, tr=0.0
+iter 900, loss=0.04288291645876598, event=0.02169007748365402, ssim=0.021107391715049745, white=8.544726006221026e-05, noevent=0.0, tr=0.0
+iter 1000, loss=0.034105494009272666, event=0.015028294268995523, ssim=0.01896389961242676, white=0.0001133001278503798, noevent=0.0, tr=0.0
+iter 1100, loss=0.03626988842792343, event=0.017243080837652087, ssim=0.018918222784996035, white=0.00010858480527531356, noevent=0.0, tr=0.0
+iter 1200, loss=0.03687454859580612, event=0.017533854627981783, ssim=0.019243721961975102, white=9.697200584923849e-05, noevent=0.0, tr=0.0
+iter 1300, loss=0.034712755997315985, event=0.015933187063783407, ssim=0.018701397776603703, white=7.817115692887455e-05, noevent=0.0, tr=0.0
+iter 1400, loss=0.04126317320216913, event=0.02143182698637247, ssim=0.019734592437744142, white=9.675377805251628e-05, noevent=0.0, tr=0.0
+iter 1500, loss=0.04675300260132645, event=0.02589343821629882, ssim=0.02079094231128693, white=6.86220737406984e-05, noevent=0.0, tr=0.0
+iter 1600, loss=0.04252583786001196, event=0.023421869492158295, ssim=0.019035662412643435, white=6.830595521023497e-05, noevent=0.0, tr=0.0
+iter 1700, loss=0.03704653922090074, event=0.018556620515882968, ssim=0.0184172123670578, white=7.270633795997128e-05, noevent=0.0, tr=0.0
+iter 1800, loss=0.033884077135880944, event=0.015691667487844826, ssim=0.018117709755897524, white=7.469989213859662e-05, noevent=0.0, tr=0.0
+iter 1900, loss=0.0325353731031646, event=0.014366307286545634, ssim=0.0180815726518631, white=8.749316475586966e-05, noevent=0.0, tr=0.0
+Step 2000: 16977 GSs duplicated, 194 GSs split. Now having 67171 GSs.
+Step 2000: 35782 GSs pruned. Now having 31389 GSs.
+iter 2000, loss=0.03881938142760191, event=0.019889392498880627, ssim=0.018855857849121097, white=7.41310796001926e-05, noevent=0.0, tr=0.0
+iter 2100, loss=0.04407524939335417, event=0.02401535792276263, ssim=0.019968744516372684, white=9.114695421885699e-05, noevent=0.0, tr=0.0
+iter 2200, loss=0.03773158290889114, event=0.018236661087721588, ssim=0.01939827859401703, white=9.664322715252638e-05, noevent=0.0, tr=0.0
+iter 2300, loss=0.03565346691757441, event=0.01697465953417122, ssim=0.018581085801124577, white=9.772158227860928e-05, noevent=0.0, tr=0.0
+iter 2400, loss=0.03700073106243508, event=0.01789689780212939, ssim=0.018999564647674563, white=0.00010426861263113096, noevent=0.0, tr=0.0
+Step 2500: 11152 GSs duplicated, 193 GSs split. Now having 42734 GSs.
+Step 2500: 7551 GSs pruned. Now having 35183 GSs.
+iter 2500, loss=0.03495131445553852, event=0.016777787245810034, ssim=0.018095973134040832, white=7.755407568765804e-05, noevent=0.0, tr=0.0
+iter 2600, loss=0.04017667991138296, event=0.020545646967366337, ssim=0.019527193903923035, white=0.00010383904009358957, noevent=0.0, tr=0.0
+iter 2700, loss=0.03512166428234195, event=0.016770219039171936, ssim=0.01825474262237549, white=9.670262079453096e-05, noevent=0.0, tr=0.0
+iter 2800, loss=0.036673296876542735, event=0.01774571415968239, ssim=0.018834267854690556, white=9.331486216979101e-05, noevent=0.0, tr=0.0
+iter 2900, loss=0.04004034883459099, event=0.020787687487900258, ssim=0.019162364006042484, white=9.029734064824879e-05, noevent=0.0, tr=0.0
+Step 3000: 11539 GSs duplicated, 193 GSs split. Now having 46915 GSs.
+Step 3000: 7283 GSs pruned. Now having 39632 GSs.
+iter 3000, loss=0.041589754874003126, event=0.022099163206294178, ssim=0.019406710863113408, white=8.388080459553748e-05, noevent=0.0, tr=0.0
+iter 3100, loss=0.03540384913794697, event=0.01686652389355004, ssim=0.01843851983547211, white=9.880540892481804e-05, noevent=0.0, tr=0.0
+iter 3200, loss=0.03289661852410063, event=0.014781513223424554, ssim=0.017998855113983157, white=0.00011625018669292331, noevent=0.0, tr=0.0
+iter 3300, loss=0.03961414007615531, event=0.021028356458991766, ssim=0.01849699914455414, white=8.878447260940447e-05, noevent=0.0, tr=0.0
+iter 3400, loss=0.03530644728860352, event=0.01699401411227882, ssim=0.018219431638717653, white=9.300153760705143e-05, noevent=0.0, tr=0.0
+iter 3500, loss=0.03422389795130584, event=0.01583421095274389, ssim=0.018309282064437868, white=8.040493412408978e-05, noevent=0.0, tr=0.0
+iter 3600, loss=0.035986897329275964, event=0.01733056272380054, ssim=0.018559181690216066, white=9.715291525935754e-05, noevent=0.0, tr=0.0
+iter 3700, loss=0.0417192491874448, event=0.02199784779921174, ssim=0.019604244828224184, white=0.00011715656000887975, noevent=0.0, tr=0.0
+iter 3800, loss=0.036709856687521095, event=0.017847102116793395, ssim=0.01877991259098053, white=8.284197974717245e-05, noevent=0.0, tr=0.0
+iter 3900, loss=0.036351585187949245, event=0.0177779224794358, ssim=0.018494585156440736, white=7.907755207270384e-05, noevent=0.0, tr=0.0
+iter 4000, loss=0.03754931407573167, event=0.018764132354408502, ssim=0.018715764880180362, white=6.941684114281088e-05, noevent=0.0, tr=0.0
+iter 4100, loss=0.03645121329434915, event=0.018315770346671343, ssim=0.01804723978042603, white=8.82031672517769e-05, noevent=0.0, tr=0.0
+iter 4200, loss=0.043284538225561844, event=0.022619687542319297, ssim=0.02055917263031006, white=0.00010567805293248966, noevent=0.0, tr=0.0
+iter 4300, loss=0.037133277300745254, event=0.018251884914934634, ssim=0.018763828277587893, white=0.00011756410822272301, noevent=0.0, tr=0.0
+iter 4400, loss=0.037622035722015425, event=0.019207093454897402, ssim=0.018333975672721863, white=8.096659439615905e-05, noevent=0.0, tr=0.0
+iter 4500, loss=0.04182304639049107, event=0.02233466148376465, ssim=0.019404728412628178, white=8.365649409824982e-05, noevent=0.0, tr=0.0
+********** Number of GS: 39632
+======================= finished initialization  =========================
+3it [30:35, 679.75s/it]Process frame 4
+Tracking frame4 to frame4
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.974929200760812e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1705541  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.08647550818643837, event=0.059578388648773135, ssim=0.02689711953766523
+iter 100, loss=0.05699798920583642, event=0.03404073766242334, ssim=0.022957251543413083
+iter 200, loss=0.062371334155010734, event=0.03782489686585817, ssim=0.024546437289152567
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 40632
+*******************************  BA events_num: 6487693  *********************************
+incremental sampling number: 84
+****events_per_seg=65532, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.70902681350708
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, np.float32(5.709127)]
+iter 0, loss=0.040627783266827464, event=0.019610563274472952, ssim=0.019816721677780154, white=0.0012004983145743608, noevent=0.0, tr=0.0
+iter 500, loss=0.04119569373782724, event=0.020970558151602745, ssim=0.019262441992759706, white=0.0009626935934647918, noevent=0.0, tr=0.0
+iter 1000, loss=0.03968820829177275, event=0.01911951866932213, ssim=0.019731536507606506, white=0.0008371531148441136, noevent=0.0, tr=0.0
+iter 1500, loss=0.04491763317259029, event=0.023869895646348598, ssim=0.020196642279624942, white=0.000851095246616751, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+4it [35:35, 548.14s/it]Process frame 5
+Tracking frame5 to frame5
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.41900146697094e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1706701  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.06636340783226953, event=0.03957094863719795, ssim=0.026792459195071585
+iter 100, loss=0.05460204330294259, event=0.029177035912015956, ssim=0.02542500739092663
+iter 200, loss=0.052133968729714986, event=0.027795382861640683, ssim=0.0243385858680743
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 41632
+*******************************  BA events_num: 8194394  *********************************
+incremental sampling number: 87
+****events_per_seg=82772, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.7590508460998535
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, np.float32(5.759151)]
+iter 0, loss=0.042532963224221024, event=0.02104280488565564, ssim=0.020685091614723206, white=0.0008050667238421738, noevent=0.0, tr=0.0
+iter 500, loss=0.03775786280166358, event=0.016803030762821435, ssim=0.020144242048263553, white=0.0008105899905785918, noevent=0.0, tr=0.0
+iter 1000, loss=0.04435563820647076, event=0.02302830947563052, ssim=0.020578107833862307, white=0.0007492208969779313, noevent=0.0, tr=0.0
+iter 1500, loss=0.03836372612742707, event=0.01754927610978484, ssim=0.02013559997081757, white=0.0006788500468246639, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+5it [40:32, 465.26s/it]Process frame 6
+Tracking frame6 to frame6
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.2549096545532166e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1703368  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.06812838551172487, event=0.039488797817993505, ssim=0.02863958769373136
+iter 100, loss=0.052316393355791996, event=0.026047106125143993, ssim=0.026269287230648
+iter 200, loss=0.049129015505073856, event=0.023961278554311446, ssim=0.02516773695076241
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 42632
+*******************************  BA events_num: 9897762  *********************************
+incremental sampling number: 89
+****events_per_seg=99977, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.809051990509033
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, np.float32(5.809152)]
+iter 0, loss=0.03622187172994018, event=0.014723600605502726, ssim=0.02055313587188721, white=0.0009451352525502443, noevent=0.0, tr=0.0
+iter 500, loss=0.03456579845398665, event=0.015343711357563735, ssim=0.018489553928375247, white=0.0007325331680476665, noevent=0.0, tr=0.0
+iter 1000, loss=0.04022252428578213, event=0.019306876994669438, ssim=0.020049937963485722, white=0.0008657093276269734, noevent=0.0, tr=0.0
+iter 1500, loss=0.03546746961539611, event=0.016200397312641144, ssim=0.01860408663749695, white=0.0006629856652580202, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+6it [45:29, 411.27s/it]Process frame 7
+Tracking frame7 to frame7
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.144030760182659e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1705910  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.05726395084302353, event=0.03011480958225552, ssim=0.027149141260768006
+iter 100, loss=0.05288504694552763, event=0.02615601582291505, ssim=0.02672903112261258
+iter 200, loss=0.052846672840830056, event=0.02599229266553327, ssim=0.026854380175296788
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 43632
+*******************************  BA events_num: 11603672  *********************************
+incremental sampling number: 91
+****events_per_seg=117209, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.859013080596924
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, np.float32(5.859113)]
+iter 0, loss=0.03550684101181105, event=0.015367257026955483, ssim=0.01926460683345795, white=0.0008749771513976157, noevent=0.0, tr=0.0
+iter 500, loss=0.044351188640575856, event=0.02214370113797486, ssim=0.02157031297683716, white=0.0006371745257638395, noevent=0.0, tr=0.0
+iter 1000, loss=0.033128011478111154, event=0.013023405196145177, ssim=0.019471024274826054, white=0.0006335820071399212, noevent=0.0, tr=0.0
+iter 1500, loss=0.032995621752925225, event=0.012489872286096215, ssim=0.019776144027709965, white=0.000729605439119041, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+7it [50:26, 375.43s/it]Process frame 8
+Tracking frame8 to frame8
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.104572758871882e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1703903  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.06945349288897808, event=0.04010240800289866, ssim=0.029351084886079418
+iter 100, loss=0.05192060048568259, event=0.025510569305568106, ssim=0.02641003118011448
+iter 200, loss=0.05143216033573839, event=0.025157683329690584, ssim=0.02627447700604781
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 44632
+*******************************  BA events_num: 13307575  *********************************
+incremental sampling number: 92
+****events_per_seg=134420, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.908998012542725
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, np.float32(5.909098)]
+iter 0, loss=0.037321873505134134, event=0.016379719572141765, ssim=0.02029833197593689, white=0.0006438219570554793, noevent=0.0, tr=0.0
+iter 500, loss=0.0343265642807819, event=0.013452985240146518, ssim=0.01994853794574738, white=0.0009250410948880017, noevent=0.0, tr=0.0
+iter 1000, loss=0.03993914345279336, event=0.01614746711216867, ssim=0.022781807184219363, white=0.0010098691564053297, noevent=0.0, tr=0.0
+iter 1500, loss=0.036559844259172684, event=0.014039689535275101, ssim=0.021473651528358464, white=0.0010465031955391169, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+8it [55:24, 351.31s/it]Process frame 9
+Tracking frame9 to frame9
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.0842187503357081e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1704962  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.05998303851650683, event=0.032256886256529387, ssim=0.027726152259977446
+iter 100, loss=0.04994234764560303, event=0.023879970481320168, ssim=0.026062377164282863
+iter 200, loss=0.04929263807500699, event=0.023514429393085602, ssim=0.02577820868192139
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 45632
+*******************************  BA events_num: 15012537  *********************************
+incremental sampling number: 93
+****events_per_seg=151641, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=5.959014892578125
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, np.float32(5.959115)]
+iter 0, loss=0.039951071206014606, event=0.018615355780348182, ssim=0.0206710422039032, white=0.0006646732217632234, noevent=0.0, tr=0.0
+iter 500, loss=0.040741616655141116, event=0.019180754609405996, ssim=0.020541269183158878, white=0.0010195928625762463, noevent=0.0, tr=0.0
+iter 1000, loss=0.039371606581844396, event=0.017783217392861844, ssim=0.02081545233726502, white=0.0007729368517175317, noevent=0.0, tr=0.0
+iter 1500, loss=0.04638795331586153, event=0.022436099871993062, ssim=0.02298556983470917, white=0.0009662836091592908, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+9it [1:00:23, 335.21s/it]Process frame 10
+Tracking frame10 to frame10
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-8.590607913916415e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1703167  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.056403660104097614, event=0.02880681571858538, ssim=0.027596844385512232
+iter 100, loss=0.05594353580685758, event=0.029127974475161435, ssim=0.026815561331696148
+iter 200, loss=0.05358403928925923, event=0.027224305377410944, ssim=0.026359733911848288
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 46632
+*******************************  BA events_num: 16715704  *********************************
+incremental sampling number: 94
+****events_per_seg=168846, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.009030818939209
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, np.float32(6.009131)]
+iter 0, loss=0.03669419007143006, event=0.01422878605313599, ssim=0.021724420785903933, white=0.0007409832323901355, noevent=0.0, tr=0.0
+iter 500, loss=0.03806334612891078, event=0.016320397360250354, ssim=0.020626350045204165, white=0.0011165987234562635, noevent=0.0, tr=0.0
+iter 1000, loss=0.04056601616088301, event=0.016595175992697477, ssim=0.022808771133422855, white=0.0011620690347626805, noevent=0.0, tr=0.0
+iter 1500, loss=0.038703125673346224, event=0.017255063448101283, ssim=0.020806981325149538, white=0.0006410809000954032, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+10it [1:05:23, 324.45s/it]Process frame 11
+Tracking frame11 to frame11
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.054204590289487e-06    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1697826  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.07466447722268194, event=0.044963975553409925, ssim=0.029700501669272007
+iter 100, loss=0.06004736583499641, event=0.033354942403942316, ssim=0.02669242343105409
+iter 200, loss=0.06092593497506057, event=0.03377470217222352, ssim=0.02715123280283705
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 47632
+*******************************  BA events_num: 18413530  *********************************
+incremental sampling number: 94
+****events_per_seg=185995, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.05898380279541
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, np.float32(6.059084)]
+iter 0, loss=0.04142060507554561, event=0.017516844831407072, ssim=0.02283361554145813, white=0.001070144702680409, noevent=0.0, tr=0.0
+iter 500, loss=0.035669950691517446, event=0.015024716844782234, ssim=0.01988923490047455, white=0.0007559989462606609, noevent=0.0, tr=0.0
+iter 1000, loss=0.03822399807395414, event=0.014920802908018232, ssim=0.022482498288154604, white=0.0008206968777813017, noevent=0.0, tr=0.0
+iter 1500, loss=0.041015575951896616, event=0.019560476150363687, ssim=0.02070723950862885, white=0.000747860292904079, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+11it [1:10:23, 317.00s/it]Process frame 12
+Tracking frame12 to frame12
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.4285327138737784e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1686352  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.08029580455471388, event=0.051349418680574806, ssim=0.028946385874139086
+iter 100, loss=0.06462509003463462, event=0.03823674787323296, ssim=0.026388342161401658
+iter 200, loss=0.06740029258035957, event=0.04069660818285725, ssim=0.026703684397502314
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 48632
+*******************************  BA events_num: 20099882  *********************************
+incremental sampling number: 95
+****events_per_seg=203029, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.1088738441467285
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, np.float32(6.108974)]
+iter 0, loss=0.04139945019502193, event=0.016744529781863093, ssim=0.023639727234840396, white=0.001015193178318441, noevent=0.0, tr=0.0
+iter 500, loss=0.04135213655419648, event=0.01709283928386867, ssim=0.023106762766838075, white=0.0011525345034897327, noevent=0.0, tr=0.0
+iter 1000, loss=0.047366090216673915, event=0.022921660048887134, ssim=0.023201134204864506, white=0.001243295962922275, noevent=0.0, tr=0.0
+iter 1500, loss=0.038541389552410696, event=0.015630994075909257, ssim=0.022168025970458985, white=0.0007423695060424507, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+12it [1:15:23, 312.03s/it]Process frame 13
+Tracking frame13 to frame13
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-6.925249023126412e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1595697  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.08155759442246349, event=0.053160718790832395, ssim=0.028396875631631104
+iter 100, loss=0.0709228748179698, event=0.04528305174166514, ssim=0.02563982307630466
+iter 200, loss=0.07627366995739637, event=0.04924889500775884, ssim=0.027024774949637533
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 49632
+*******************************  BA events_num: 21695579  *********************************
+incremental sampling number: 95
+****events_per_seg=219147, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.158761024475098
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, np.float32(6.158861)]
+iter 0, loss=0.041692465164233, event=0.017963919341564178, ssim=0.02284765779972077, white=0.0008808880229480565, noevent=0.0, tr=0.0
+iter 500, loss=0.04153588051907718, event=0.01892776133492589, ssim=0.021526480913162234, white=0.0010816382709890604, noevent=0.0, tr=0.0
+iter 1000, loss=0.0455764279793948, event=0.02157214405015111, ssim=0.023246377110481265, white=0.0007579068187624216, noevent=0.0, tr=0.0
+iter 1500, loss=0.04323275484610349, event=0.02027031235396862, ssim=0.02175789117813111, white=0.0012045513140037656, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+13it [1:20:24, 308.50s/it]Process frame 14
+Tracking frame14 to frame14
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-7.612719725713646e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1581360  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.10941549005673773, event=0.07814598006142548, ssim=0.03126950999531224
+iter 100, loss=0.07779820866681236, event=0.04885412467999492, ssim=0.02894408398681744
+iter 200, loss=0.07735502457461532, event=0.04903574853715408, ssim=0.028319276037461233
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 50632
+*******************************  BA events_num: 23276939  *********************************
+incremental sampling number: 95
+****events_per_seg=235121, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.208701133728027
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, np.float32(6.2088013)]
+iter 0, loss=0.03902730178786441, event=0.016383167998865245, ssim=0.02179761052131653, white=0.0008465232676826417, noevent=0.0, tr=0.0
+iter 500, loss=0.038798523861914874, event=0.01564034347422421, ssim=0.02223435938358307, white=0.0009238210041075945, noevent=0.0, tr=0.0
+iter 1000, loss=0.0406926745409146, event=0.018114904621616006, ssim=0.02131267309188843, white=0.0012650968274101615, noevent=0.0, tr=0.0
+iter 1500, loss=0.040644449614919725, event=0.016965577332302927, ssim=0.022682026624679566, white=0.0009968456579372287, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+14it [1:25:24, 306.20s/it]Process frame 15
+Tracking frame15 to frame15
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.0018408236334153e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1690923  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.12407650154020475, event=0.09217260452792514, ssim=0.0319038970122796
+iter 100, loss=0.07244612884494397, event=0.04302125072947992, ssim=0.02942487811546405
+iter 200, loss=0.07416121370764564, event=0.044675073644824086, ssim=0.029486140062821548
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 51632
+*******************************  BA events_num: 24967862  *********************************
+incremental sampling number: 96
+****events_per_seg=252201, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.258662223815918
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, np.float32(6.2587624)]
+iter 0, loss=0.04661060203332454, event=0.022384662786498664, ssim=0.023337208032608036, white=0.0008887312142178416, noevent=0.0, tr=0.0
+iter 500, loss=0.042764383656904104, event=0.01947906174696982, ssim=0.022233079671859744, white=0.001052242238074541, noevent=0.0, tr=0.0
+iter 1000, loss=0.04605696235317737, event=0.022089002840220927, ssim=0.02306632459163666, white=0.0009016349213197827, noevent=0.0, tr=0.0
+iter 1500, loss=0.04328463168349117, event=0.020215719165280463, ssim=0.022326214313507082, white=0.000742698204703629, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+15it [1:30:25, 304.65s/it]Process frame 16
+Tracking frame16 to frame16
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-5.077912597073464e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1610790  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.09980898062899093, event=0.0669403369982604, ssim=0.03286864363073053
+iter 100, loss=0.07219791914042337, event=0.04359432035076265, ssim=0.028603598789660713
+iter 200, loss=0.07412940594567402, event=0.04497981960535052, ssim=0.02914958634032351
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 52632
+*******************************  BA events_num: 26578652  *********************************
+incremental sampling number: 96
+****events_per_seg=268471, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.30859899520874
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, np.float32(6.308699)]
+iter 0, loss=0.04077633740380407, event=0.01670971496962011, ssim=0.022819720506668095, white=0.0012469019275158644, noevent=0.0, tr=0.0
+iter 500, loss=0.04499712557531894, event=0.020925397174432876, ssim=0.022875326275825503, white=0.0011964021250605583, noevent=0.0, tr=0.0
+iter 1000, loss=0.043526527453213934, event=0.020415986264124514, ssim=0.02234158515930176, white=0.0007689560297876596, noevent=0.0, tr=0.0
+iter 1500, loss=0.04415053267963231, event=0.019142460050061344, ssim=0.023943956494331363, white=0.0010641161352396011, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+16it [1:35:26, 303.49s/it]Process frame 17
+Tracking frame17 to frame17
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.020825183914667e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1544004  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.10190294387700938, event=0.06900239232463773, ssim=0.03290055155237164
+iter 100, loss=0.07670433516878253, event=0.04708520826569381, ssim=0.029619126903088724
+iter 200, loss=0.0765032947178008, event=0.04706373701680487, ssim=0.029439557700995933
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 53632
+*******************************  BA events_num: 28122656  *********************************
+incremental sampling number: 96
+****events_per_seg=284067, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.358497142791748
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, np.float32(6.3585973)]
+iter 0, loss=0.0524802754726261, event=0.02658570704981685, ssim=0.02474645793437958, white=0.0011481104884296656, noevent=0.0, tr=0.0
+iter 500, loss=0.04287162700202317, event=0.01955070401541889, ssim=0.02253424167633057, white=0.0007866813102737069, noevent=0.0, tr=0.0
+iter 1000, loss=0.04491899595828727, event=0.01994254211895168, ssim=0.024184948801994326, white=0.0007915050373412669, noevent=0.0, tr=0.0
+iter 1500, loss=0.04608304540626705, event=0.021110625537112356, ssim=0.02389801681041718, white=0.0010744030587375164, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+17it [1:40:29, 303.12s/it]Process frame 18
+Tracking frame18 to frame18
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-8.815312497745253e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1435338  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.10316493301176341, event=0.07184969043932611, ssim=0.0313152425724373
+iter 100, loss=0.08077412911573556, event=0.05122914945723133, ssim=0.029544979658504236
+iter 200, loss=0.08048160998109888, event=0.05085403300502452, ssim=0.02962757697607435
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 54632
+*******************************  BA events_num: 29557994  *********************************
+incremental sampling number: 96
+****events_per_seg=298565, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.40838623046875
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, np.float32(6.4084864)]
+iter 0, loss=0.04497553868219256, event=0.0192020202614367, ssim=0.024592511057853702, white=0.0011810073629021645, noevent=0.0, tr=0.0
+iter 500, loss=0.04618399229366332, event=0.021275438852608203, ssim=0.023784716129302982, white=0.0011238373117521405, noevent=0.0, tr=0.0
+iter 1000, loss=0.04344955273903907, event=0.019366759080439805, ssim=0.022923863530159, white=0.0011589301284402609, noevent=0.0, tr=0.0
+iter 1500, loss=0.05194545410107822, event=0.025200052466243503, ssim=0.025600829124450688, white=0.0011445725103840232, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+18it [1:45:31, 302.84s/it]Process frame 19
+Tracking frame19 to frame19
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.416958008235383e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1485276  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.13347594844948998, event=0.09833572226628048, ssim=0.03514022618320949
+iter 100, loss=0.08462142572182083, event=0.05235792938597937, ssim=0.03226349633584146
+iter 200, loss=0.08160591315154739, event=0.049814147038245604, ssim=0.03179176611330179
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 55632
+*******************************  BA events_num: 31043270  *********************************
+incremental sampling number: 96
+****events_per_seg=313568, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.458315849304199
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, np.float32(6.458416)]
+iter 0, loss=0.039909528749994934, event=0.015261206403374672, ssim=0.023760406970977786, white=0.0008879153756424785, noevent=0.0, tr=0.0
+iter 500, loss=0.034875684985890984, event=0.013659214181825518, ssim=0.020368742346763613, white=0.0008477284573018551, noevent=0.0, tr=0.0
+iter 1000, loss=0.04738201476167888, event=0.02240282028913498, ssim=0.023860269188880925, white=0.0011189252836629748, noevent=0.0, tr=0.0
+iter 1500, loss=0.04204483266919852, event=0.018145622834563255, ssim=0.022879179716110233, white=0.0010200301185250282, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+19it [1:50:33, 302.66s/it]Process frame 20
+Tracking frame20 to frame20
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-6.887500001440117e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1654838  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.09996246949315238, event=0.06718837420789214, ssim=0.03277409528526024
+iter 100, loss=0.07128476046050995, event=0.04095594949906379, ssim=0.030328810961446163
+iter 200, loss=0.07133985302528764, event=0.040871902323731654, ssim=0.03046795070155598
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 56632
+*******************************  BA events_num: 32698108  *********************************
+incremental sampling number: 96
+****events_per_seg=330284, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.50830078125
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, np.float32(6.508401)]
+iter 0, loss=0.04558959828224034, event=0.019260479658842086, ssim=0.025222529172897343, white=0.0011065894505009055, noevent=0.0, tr=0.0
+iter 500, loss=0.04849634798243642, event=0.02483572409488261, ssim=0.022882419824600223, white=0.0007782040629535913, noevent=0.0, tr=0.0
+iter 1000, loss=0.04867355002555997, event=0.023446192154660823, ssim=0.02416987240314484, white=0.0010574854677543044, noevent=0.0, tr=0.0
+iter 1500, loss=0.05228781318292022, event=0.027537537589669227, ssim=0.023977654576301577, white=0.0007726210169494152, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+******************************** global BA ********************************
+
+
+ ------------------ num_opti_steps_for_global_BA = 2501---------------------
+*******************************  BA events_num: 32698108  *********************************
+incremental sampling number: 387
+****events_per_seg=81950, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.50830078125
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, np.float32(6.508401)]
+iter 0, loss=0.05057780268136412, event=0.024049870325252416, ssim=0.025515952706336976, white=0.0010119796497747302, noevent=0.0, tr=0.0
+iter 500, loss=0.04455706025939435, event=0.01990672859363258, ssim=0.023572021126747136, white=0.0010783105390146375, noevent=0.0, tr=0.0
+iter 1000, loss=0.049535883450880655, event=0.02267423136159778, ssim=0.02585520088672638, white=0.001006451202556491, noevent=0.0, tr=0.0
+iter 1500, loss=0.04831568429246545, event=0.022720522172749044, ssim=0.02463580906391144, white=0.0009593530558049679, noevent=0.0, tr=0.0
+Step 2000: 3777 GSs duplicated, 899 GSs split. Now having 61308 GSs.
+Step 2000: 49211 GSs pruned. Now having 12097 GSs.
+iter 2000, loss=0.05079650416970253, event=0.025299077946692703, ssim=0.02443416178226471, white=0.0010632644407451153, noevent=0.0, tr=0.0
+Step 2500: 5043 GSs duplicated, 725 GSs split. Now having 17865 GSs.
+Step 2500: 3189 GSs pruned. Now having 14676 GSs.
+iter 2500, loss=0.04951031948439777, event=0.023304890356957913, ssim=0.02532279074192047, white=0.0008826383855193853, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+20it [2:03:32, 445.73s/it]Process frame 21
+Tracking frame21 to frame21
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-7.269255366537664e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1694632  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.17487279568887662, event=0.1339816194182829, ssim=0.04089117627059371
+iter 100, loss=0.1723163928551208, event=0.1279705456573937, ssim=0.0443458471977271
+iter 200, loss=0.18356227812101664, event=0.1389920318876444, ssim=0.04457024623337224
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 15676
+*******************************  BA events_num: 34392740  *********************************
+incremental sampling number: 97
+****events_per_seg=347401, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.558332920074463
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, np.float32(6.558433)]
+iter 0, loss=0.11331201224587859, event=0.07268569923937321, ssim=0.039437882304191596, white=0.0011884307023137808, noevent=0.0, tr=0.0
+iter 500, loss=0.04507429042598233, event=0.020589264398440717, ssim=0.02350971877574921, white=0.0009753072517924011, noevent=0.0, tr=0.0
+iter 1000, loss=0.056245995219796896, event=0.028975655045360326, ssim=0.026343953609466553, white=0.0009263865649700165, noevent=0.0, tr=0.0
+iter 1500, loss=0.05177479721605778, event=0.027017260985448956, ssim=0.023739337325096133, white=0.0010181989055126905, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+21it [2:08:52, 407.95s/it]Process frame 22
+Tracking frame22 to frame22
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.1839501851417253e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1697693  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.0868179901737029, event=0.053499868259072034, ssim=0.033318121914630856
+iter 100, loss=0.06450033234361052, event=0.03363125842029408, ssim=0.030869073923316444
+iter 200, loss=0.06361739136805877, event=0.033239861763989485, ssim=0.03037752960406928
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 16676
+*******************************  BA events_num: 36090433  *********************************
+incremental sampling number: 97
+****events_per_seg=364550, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.6082868576049805
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, np.float32(6.608387)]
+iter 0, loss=0.04512810722924769, event=0.019916453659534455, ssim=0.024169713854789734, white=0.001041939714923501, noevent=0.0, tr=0.0
+iter 500, loss=0.04246438269969076, event=0.01850324829109013, ssim=0.022930628657341006, white=0.001030505751259625, noevent=0.0, tr=0.0
+iter 1000, loss=0.04431362081319094, event=0.020206048777326943, ssim=0.023168807029724126, white=0.0009387650061398745, noevent=0.0, tr=0.0
+iter 1500, loss=0.041960817342624065, event=0.018367572128772734, ssim=0.022721028327941897, white=0.0008722168859094381, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+22it [2:14:27, 385.95s/it]Process frame 23
+Tracking frame23 to frame23
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-6.525759275177734e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1694645  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.07203485929240941, event=0.03880499403685541, ssim=0.03322986525555399
+iter 100, loss=0.0664567745573647, event=0.03379100636852909, ssim=0.03266576818883562
+iter 200, loss=0.06492124442792763, event=0.032649262934164584, ssim=0.03227198149376304
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 17676
+*******************************  BA events_num: 37785078  *********************************
+incremental sampling number: 97
+****events_per_seg=381668, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.658152103424072
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, np.float32(6.6582522)]
+iter 0, loss=0.05070780692622066, event=0.024912874680012465, ssim=0.024761283397674562, white=0.0010336488485336304, noevent=0.0, tr=0.0
+iter 500, loss=0.044561645826324825, event=0.01988491085357964, ssim=0.02366741180419922, white=0.0010093231685459614, noevent=0.0, tr=0.0
+iter 1000, loss=0.041145716127939526, event=0.016778721548616888, ssim=0.023478997945785524, white=0.0008879966335371137, noevent=0.0, tr=0.0
+iter 1500, loss=0.05708776739891619, event=0.03013164879754186, ssim=0.025946034193038942, white=0.0010100844083353877, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+23it [2:19:59, 369.85s/it]Process frame 24
+Tracking frame24 to frame24
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.0433496111517115e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1691215  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.07380787487590151, event=0.03987324724773054, ssim=0.033934627628170975
+iter 100, loss=0.06307907920013778, event=0.030919676726937618, ssim=0.032159402473200156
+iter 200, loss=0.0639271886291429, event=0.031480692215248456, ssim=0.032446496413894445
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 18676
+*******************************  BA events_num: 39476293  *********************************
+incremental sampling number: 97
+****events_per_seg=398750, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.707986831665039
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, np.float32(6.708087)]
+iter 0, loss=0.04679533376824111, event=0.021791533920913937, ssim=0.02405336618423462, white=0.0009504336630925536, noevent=0.0, tr=0.0
+iter 500, loss=0.04711386473383755, event=0.01919347917661071, ssim=0.02697429418563843, white=0.000946091371588409, noevent=0.0, tr=0.0
+iter 1000, loss=0.04309361549792812, event=0.018848961917683482, ssim=0.02328403770923615, white=0.0009606158710084856, noevent=0.0, tr=0.0
+iter 1500, loss=0.047107067680917686, event=0.020137691786512733, ssim=0.026104534268379217, white=0.0008648416260257363, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+24it [2:25:33, 359.18s/it]Process frame 25
+Tracking frame25 to frame25
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-6.966579588763011e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1692781  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.0677759474026409, event=0.033939534966646624, ssim=0.033836412435994265
+iter 100, loss=0.062081456518480835, event=0.029835575235824068, ssim=0.03224588128265677
+iter 200, loss=0.06290476819732517, event=0.030122046903786958, ssim=0.03278272129353821
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 19676
+*******************************  BA events_num: 41169074  *********************************
+incremental sampling number: 97
+****events_per_seg=415849, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=6.757875919342041
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, np.float32(6.757976)]
+iter 0, loss=0.04948549831053242, event=0.022296626511961223, ssim=0.026300891637802127, white=0.0008879801607690752, noevent=0.0, tr=0.0
+iter 500, loss=0.052935479120351375, event=0.02610385736450553, ssim=0.02595138490200043, white=0.0008802368538454175, noevent=0.0, tr=0.0
+iter 1000, loss=0.05648806679062546, event=0.026908066999167205, ssim=0.028584129810333255, white=0.0009958699811249971, noevent=0.0, tr=0.0
+iter 1500, loss=0.047572967824526136, event=0.021337184412404894, ssim=0.025227206349372866, white=0.0010085770627483726, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+25it [2:30:34, 341.78s/it]Process frame 26
+Tracking frame26 to frame26
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-5.864804686339653e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1686519  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.07961044663516742, event=0.044757146586987526, ssim=0.034853300048179894
+iter 100, loss=0.06539010189047585, event=0.03319117206836266, ssim=0.03219892982211319
+iter 200, loss=0.06704569304562605, event=0.03421376275755833, ssim=0.03283193028806771
+======================= finished tracking  =========================
+============================= point num:296 ===============================
+Number of New GS: 296
+Number of GS: 19972
+*******************************  BA events_num: 41346973  *********************************
+incremental sampling number: 97
+****events_per_seg=417646, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.558795928955078, t_data_max=6.807868957519531
+control knot ts: [np.float32(5.558696), 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, np.float32(6.807969)]
+iter 0, loss=0.05156836561392993, event=0.024049949776381255, ssim=0.026510298848152165, white=0.0010081169893965125, noevent=0.0, tr=0.0
+iter 500, loss=0.0495528035517782, event=0.021147528905421493, ssim=0.027526524066925052, white=0.000878750579431653, noevent=0.0, tr=0.0
+iter 1000, loss=0.0430322709470056, event=0.01765331727452576, ssim=0.02448604285717011, white=0.0008929108153097332, noevent=0.0, tr=0.0
+iter 1500, loss=0.04666089604608715, event=0.021786610782146453, ssim=0.023969612717628482, white=0.0009046725463122129, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+26it [2:35:31, 328.25s/it]Process frame 27
+Tracking frame27 to frame27
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-6.765664064545263e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1579908  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.0820368617413273, event=0.04823777218137859, ssim=0.0337990895599487
+iter 100, loss=0.07175719258865665, event=0.0394031144853126, ssim=0.03235407810334406
+iter 200, loss=0.07058991658119021, event=0.03882186269953459, ssim=0.03176805388165562
+======================= finished tracking  =========================
+============================= point num:235 ===============================
+Number of New GS: 235
+Number of GS: 20207
+*******************************  BA events_num: 41313930  *********************************
+incremental sampling number: 97
+****events_per_seg=417312, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.608907222747803, t_data_max=6.857933044433594
+control knot ts: [np.float32(5.608807), 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, np.float32(6.858033)]
+iter 0, loss=0.04719751056982205, event=0.01993783185258508, ssim=0.0263625317811966, white=0.0008971469360403717, noevent=0.0, tr=0.0
+iter 500, loss=0.04918122126022354, event=0.023632220160216093, ssim=0.024574313759803776, white=0.0009746873402036726, noevent=0.0, tr=0.0
+iter 1000, loss=0.04943820148473606, event=0.022056886181235313, ssim=0.02642931044101715, white=0.0009520048624835908, noevent=0.0, tr=0.0
+iter 1500, loss=0.04537768410285935, event=0.01673661421984434, ssim=0.027723587751388553, white=0.000917482131626457, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+27it [2:40:26, 318.33s/it]Process frame 28
+Tracking frame28 to frame28
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-8.728840334981669e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1217875  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.12467317398657941, event=0.08926336349459003, ssim=0.03540981049198938
+iter 100, loss=0.09435812428279142, event=0.06196556158096081, ssim=0.032392562701830614
+iter 200, loss=0.0943355913546622, event=0.062458242593739104, ssim=0.031877348760923095
+======================= finished tracking  =========================
+============================= point num:82 ===============================
+Number of New GS: 82
+Number of GS: 20289
+*******************************  BA events_num: 40871224  *********************************
+incremental sampling number: 97
+****events_per_seg=412840, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.658971786499023, t_data_max=6.907989025115967
+control knot ts: [np.float32(5.6588717), 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, np.float32(6.908089)]
+iter 0, loss=0.04574967633932829, event=0.018664028709754348, ssim=0.026177880764007573, white=0.0009077668655663729, noevent=0.0, tr=0.0
+iter 500, loss=0.04079284695442766, event=0.016201339224353434, ssim=0.023679355382919313, white=0.0009121523471549153, noevent=0.0, tr=0.0
+iter 1000, loss=0.05240676941350103, event=0.023271155301481487, ssim=0.028130663037300115, white=0.001004951074719429, noevent=0.0, tr=0.0
+iter 1500, loss=0.046906061766203495, event=0.02151060216128826, ssim=0.024460620880126956, white=0.0009348387247882783, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+28it [2:45:23, 311.74s/it]Process frame 29
+Tracking frame29 to frame29
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-7.770803218676292e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1159646  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.11551205918777693, event=0.0816669631729236, ssim=0.033845096014853325
+iter 100, loss=0.10291997917280454, event=0.07020289087950984, ssim=0.0327170882932947
+iter 200, loss=0.10285403852938957, event=0.07029577991184445, ssim=0.032558258617545126
+======================= finished tracking  =========================
+============================= point num:0 ===============================
+Not enough points to create a new GS, skipped.
+*******************************  BA events_num: 40325329  *********************************
+incremental sampling number: 97
+****events_per_seg=407326, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.7090277671813965, t_data_max=6.957997798919678
+control knot ts: [np.float32(5.7089276), 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, np.float32(6.958098)]
+iter 0, loss=0.05794853996951134, event=0.029606788270175457, ssim=0.02740324199199677, white=0.000938509707339108, noevent=0.0, tr=0.0
+iter 500, loss=0.061011595586314804, event=0.02980019638314843, ssim=0.030321516990661625, white=0.0008898822125047445, noevent=0.0, tr=0.0
+iter 1000, loss=0.04767677245661616, event=0.018886411888524888, ssim=0.02798354208469391, white=0.0008068184833973646, noevent=0.0, tr=0.0
+iter 1500, loss=0.04899065849371255, event=0.021634527342393992, ssim=0.026480388045310978, white=0.000875743106007576, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+29it [2:50:20, 307.42s/it]Process frame 30
+Tracking frame30 to frame30
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.02529052382306e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1247706  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.11259577016645855, event=0.08067707695967896, ssim=0.03191869320677959
+iter 100, loss=0.09483936914651439, event=0.06384506141165988, ssim=0.03099430773485451
+iter 200, loss=0.0944531022828673, event=0.0633851133747663, ssim=0.031067988908101
+======================= finished tracking  =========================
+============================= point num:713 ===============================
+Number of New GS: 713
+Number of GS: 21002
+*******************************  BA events_num: 39866334  *********************************
+incremental sampling number: 97
+****events_per_seg=402690, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.75905179977417, t_data_max=7.007975101470947
+control knot ts: [np.float32(5.7589517), 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, np.float32(7.008075)]
+iter 0, loss=0.05534500477602705, event=0.0275960642285645, ssim=0.026802206039428712, white=0.0009467345080338418, noevent=0.0, tr=0.0
+iter 500, loss=0.048811271921731535, event=0.021142709990963342, ssim=0.02674523115158081, white=0.0009233307791873813, noevent=0.0, tr=0.0
+iter 1000, loss=0.05766105822520331, event=0.02765077951364219, ssim=0.029126960635185245, white=0.0008833180763758719, noevent=0.0, tr=0.0
+iter 1500, loss=0.048993278671987356, event=0.02286135115660727, ssim=0.025176808834075932, white=0.0009551186813041568, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+******************************** global BA ********************************
+
+
+ ------------------ num_opti_steps_for_global_BA = 2501---------------------
+*******************************  BA events_num: 48060728  *********************************
+incremental sampling number: 587
+****events_per_seg=80235, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=7.007975101470947
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, np.float32(7.008075)]
+iter 0, loss=0.05649759929627181, event=0.028465448915958407, ssim=0.0270237934589386, white=0.0010083569213747978, noevent=0.0, tr=0.0
+iter 500, loss=0.04929433109005914, event=0.0213384023681283, ssim=0.027097889184951787, white=0.0008580395369790494, noevent=0.0, tr=0.0
+iter 1000, loss=0.04856880164006725, event=0.02243595654144883, ssim=0.025159898400306704, white=0.0009729466983117163, noevent=0.0, tr=0.0
+iter 1500, loss=0.04411390453809873, event=0.0183126924559474, ssim=0.0248482757806778, white=0.0009529363014735281, noevent=0.0, tr=0.0
+Step 2000: 2954 GSs duplicated, 913 GSs split. Now having 24869 GSs.
+Step 2000: 15450 GSs pruned. Now having 9419 GSs.
+iter 2000, loss=0.043502385572064664, event=0.016567082321271298, ssim=0.02600768029689789, white=0.0009276229538954794, noevent=0.0, tr=0.0
+Step 2500: 4354 GSs duplicated, 891 GSs split. Now having 14664 GSs.
+Step 2500: 2354 GSs pruned. Now having 12310 GSs.
+iter 2500, loss=0.04778898023301735, event=0.02034989159554243, ssim=0.0266880202293396, white=0.0007510684081353247, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+30it [3:03:09, 445.93s/it]Process frame 31
+Tracking frame31 to frame31
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-7.548149412173188e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1169810  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.1709865432398331, event=0.12992639120089067, ssim=0.041060152038942414
+iter 100, loss=0.15437051702573898, event=0.11465741436180653, ssim=0.03971310266393246
+iter 200, loss=0.15281293050001915, event=0.11310037018844672, ssim=0.03971256031157243
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 13310
+*******************************  BA events_num: 39332776  *********************************
+incremental sampling number: 97
+****events_per_seg=397301, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.80905294418335, t_data_max=7.057951927185059
+control knot ts: [np.float32(5.808953), 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, np.float32(7.058052)]
+iter 0, loss=0.09125892967451364, event=0.049989381171762944, ssim=0.0402844512462616, white=0.000985097256489098, noevent=0.0, tr=0.0
+iter 500, loss=0.06733682096702978, event=0.03833713630214334, ssim=0.028192241787910462, white=0.0008074428769759834, noevent=0.0, tr=0.0
+iter 1000, loss=0.041833769730292264, event=0.017215444231405853, ssim=0.02366241216659546, white=0.0009559133322909474, noevent=0.0, tr=0.0
+iter 1500, loss=0.05408322574105114, event=0.02695289796218276, ssim=0.026194384098052984, white=0.0009359436808153987, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+31it [3:08:02, 399.90s/it]Process frame 32
+Tracking frame32 to frame32
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.465478511406218e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 981624  *********************************
+************************  N_window for init: 977623  ***************
+iter 0, loss=0.1768836127004491, event=0.14323346007219043, ssim=0.03365015262825868
+iter 100, loss=0.13487017042376967, event=0.10294930805767416, ssim=0.0319208623660955
+iter 200, loss=0.1339822582041233, event=0.10222869663717443, ssim=0.03175356156694886
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 14310
+*******************************  BA events_num: 38608490  *********************************
+incremental sampling number: 97
+****events_per_seg=389985, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.85901403427124, t_data_max=7.107976913452148
+control knot ts: [np.float32(5.858914), 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, np.float32(7.108077)]
+iter 0, loss=0.05150178577983752, event=0.024818302355706694, ssim=0.02575832009315491, white=0.00092516333097592, noevent=0.0, tr=0.0
+iter 500, loss=0.044194783000275496, event=0.0186912071891129, ssim=0.0246689522266388, white=0.000834623584523797, noevent=0.0, tr=0.0
+iter 1000, loss=0.052823335223365575, event=0.025632091425359247, ssim=0.026357299089431765, white=0.0008339447085745633, noevent=0.0, tr=0.0
+iter 1500, loss=0.04573137615574524, event=0.018162970608100296, ssim=0.02677901566028595, white=0.0007893898873589933, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+32it [3:12:55, 367.83s/it]Process frame 33
+Tracking frame33 to frame33
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.663378933538297e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 913429  *********************************
+************************  N_window for init: 909428  ***************
+iter 0, loss=0.16488017755642598, event=0.131797895044339, ssim=0.03308228251208698
+iter 100, loss=0.13936993484950255, event=0.10723108709325625, ssim=0.032138847756246286
+iter 200, loss=0.13932465096028332, event=0.10714028600433571, ssim=0.0321843649559476
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 15310
+*******************************  BA events_num: 37818016  *********************************
+incremental sampling number: 97
+****events_per_seg=382000, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.908998966217041, t_data_max=7.158041000366211
+control knot ts: [np.float32(5.908899), 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, np.float32(7.158141)]
+iter 0, loss=0.045466297781094914, event=0.018912971038371324, ssim=0.02577214896678925, white=0.0007811777759343386, noevent=0.0, tr=0.0
+iter 500, loss=0.04435422163689509, event=0.018868795679882172, ssim=0.024516669511795045, white=0.0009687564452178776, noevent=0.0, tr=0.0
+iter 1000, loss=0.04757966781035066, event=0.020591656602919103, ssim=0.026159386038780215, white=0.0008286251686513424, noevent=0.0, tr=0.0
+iter 1500, loss=0.046478022416122255, event=0.019608620526269077, ssim=0.025930582284927367, white=0.0009388196049258113, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+33it [3:17:50, 345.97s/it]Process frame 34
+Tracking frame34 to frame34
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.767197265247546e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1085554  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.14882869881036784, event=0.11513449232909118, ssim=0.033694206481276655
+iter 100, loss=0.12438096431341361, event=0.09113107974824916, ssim=0.03324988456516444
+iter 200, loss=0.12416137024942116, event=0.0910476209456235, ssim=0.03311374930379765
+======================= finished tracking  =========================
+============================= point num:868 ===============================
+Number of New GS: 868
+Number of GS: 16178
+*******************************  BA events_num: 37198608  *********************************
+incremental sampling number: 97
+****events_per_seg=375744, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.959015846252441, t_data_max=7.208105087280273
+control knot ts: [np.float32(5.9589157), 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, np.float32(7.208205)]
+iter 0, loss=0.06117991943378002, event=0.032952424343675374, ssim=0.02723997592926026, white=0.0009875191608443856, noevent=0.0, tr=0.0
+iter 500, loss=0.04917365291854367, event=0.02219760970212519, ssim=0.026199828982353214, white=0.0007762142340652645, noevent=0.0, tr=0.0
+iter 1000, loss=0.05637612546095625, event=0.028308170186355713, ssim=0.027134857773780826, white=0.0009330975008197129, noevent=0.0, tr=0.0
+iter 1500, loss=0.055353827290236954, event=0.0273507584258914, ssim=0.026996711492538458, white=0.0010063573718070984, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+34it [3:22:43, 330.18s/it]Process frame 35
+Tracking frame35 to frame35
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.148952635484875e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1171254  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.11632836005091837, event=0.08351268432355487, ssim=0.0328156757273635
+iter 100, loss=0.11148554425913854, event=0.07980058878279749, ssim=0.03168495547634105
+iter 200, loss=0.11225251932573546, event=0.08028613827902939, ssim=0.03196638104670607
+======================= finished tracking  =========================
+============================= point num:182 ===============================
+Number of New GS: 182
+Number of GS: 16360
+*******************************  BA events_num: 36666695  *********************************
+incremental sampling number: 97
+****events_per_seg=370370, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=6.009031772613525, t_data_max=7.258137226104736
+control knot ts: [np.float32(6.0089316), 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, 7.208105464, np.float32(7.2582374)]
+iter 0, loss=0.052883404078893366, event=0.025918645989149808, ssim=0.026140775680541996, white=0.0008239824092015624, noevent=0.0, tr=0.0
+iter 500, loss=0.04917899512453005, event=0.02222318358719349, ssim=0.026192786693573, white=0.0007630248437635601, noevent=0.0, tr=0.0
+iter 1000, loss=0.048032635468989615, event=0.02122138005681336, ssim=0.02601488590240479, white=0.0007963695097714663, noevent=0.0, tr=0.0
+iter 1500, loss=0.057404248646926136, event=0.02940503690391779, ssim=0.02720344066619873, white=0.0007957710768096149, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+35it [3:27:37, 319.24s/it]Process frame 36
+Tracking frame36 to frame36
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.109494625292314e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1350434  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.1085632759324367, event=0.07665860702083156, ssim=0.03190466891160513
+iter 100, loss=0.10108062844341041, event=0.06971977804613279, ssim=0.03136085039727762
+iter 200, loss=0.10225455813106296, event=0.06996111884989809, ssim=0.03229343928116487
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 17360
+*******************************  BA events_num: 36319303  *********************************
+incremental sampling number: 97
+****events_per_seg=366861, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=6.058985233306885, t_data_max=7.308122158050537
+control knot ts: [np.float32(6.058885), 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, 7.208105464, 7.258138141, np.float32(7.3082223)]
+iter 0, loss=0.04766039496287704, event=0.021246014330536127, ssim=0.025500962734222418, white=0.0009134178981184959, noevent=0.0, tr=0.0
+iter 500, loss=0.04773016209714115, event=0.020685821054503322, ssim=0.026287807226181032, white=0.0007565338164567947, noevent=0.0, tr=0.0
+iter 1000, loss=0.06315180080709978, event=0.03420939764939248, ssim=0.02815707802772522, white=0.000785325129982084, noevent=0.0, tr=0.0
+iter 1500, loss=0.05918370690662414, event=0.030400212546810506, ssim=0.02800729811191559, white=0.0007761962478980422, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+36it [3:32:30, 311.42s/it]Process frame 37
+Tracking frame37 to frame37
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.0700366188417547e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1519200  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.10374840810840008, event=0.07293851382560904, ssim=0.030809894282791052
+iter 100, loss=0.0842022213217626, event=0.05378166589477619, ssim=0.030420555426986406
+iter 200, loss=0.08520578049855083, event=0.05414530537082919, ssim=0.031060475127721643
+======================= finished tracking  =========================
+============================= point num:357 ===============================
+Number of New GS: 357
+Number of GS: 17717
+*******************************  BA events_num: 36152151  *********************************
+incremental sampling number: 97
+****events_per_seg=365173, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=6.108874797821045, t_data_max=7.358107089996338
+control knot ts: [np.float32(6.1087747), 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, 7.208105464, 7.258138141, 7.308123069, np.float32(7.358207)]
+iter 0, loss=0.0571504655177705, event=0.02943159074522555, ssim=0.026982201933860778, white=0.0007366728386841714, noevent=0.0, tr=0.0
+iter 500, loss=0.059142862206790596, event=0.03179538799449801, ssim=0.026404754519462587, white=0.0009427196928299963, noevent=0.0, tr=0.0
+iter 1000, loss=0.056370540934149185, event=0.027982013924047353, ssim=0.027586349248886113, white=0.0008021777612157166, noevent=0.0, tr=0.0
+iter 1500, loss=0.060577678163535896, event=0.03148570235818624, ssim=0.028322777748107916, white=0.0007691980572417378, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+37it [3:37:24, 306.30s/it]Process frame 38
+Tracking frame38 to frame38
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-5.611999513988053e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1600898  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.08380333908872145, event=0.05448726268173094, ssim=0.029316076406990507
+iter 100, loss=0.078994543243916, event=0.049609097696839737, ssim=0.029385445547076262
+iter 200, loss=0.0803859522461139, event=0.05079563834444441, ssim=0.029590313901669496
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 18717
+*******************************  BA events_num: 36157352  *********************************
+incremental sampling number: 97
+****events_per_seg=365226, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=6.158761978149414, t_data_max=7.408115863800049
+control knot ts: [np.float32(6.158662), 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, 7.208105464, 7.258138141, 7.308123069, 7.358107497, np.float32(7.408216)]
+iter 0, loss=0.05354994238819927, event=0.026187094720080493, ssim=0.026488069295883182, white=0.0008747783722355962, noevent=0.0, tr=0.0
+iter 500, loss=0.059174826778471475, event=0.029610052667558194, ssim=0.02875674188137055, white=0.0008080322295427322, noevent=0.0, tr=0.0
+iter 1000, loss=0.06113133618608117, event=0.03321750055998564, ssim=0.027101428508758546, white=0.0008124071173369884, noevent=0.0, tr=0.0
+iter 1500, loss=0.052716986699961124, event=0.02533032612875104, ssim=0.02666124701499939, white=0.0007254135562106967, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+38it [3:42:20, 303.28s/it]Process frame 39
+Tracking frame39 to frame39
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.046948198777045e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1664901  *********************************
+************************  N_window for init: 999999  ***************
+iter 0, loss=0.07701264723965157, event=0.047906070981639216, ssim=0.029106576258012343
+iter 100, loss=0.07176037674727227, event=0.04344882608126026, ssim=0.028311550666012014
+iter 200, loss=0.07124589612587236, event=0.04301686517892577, ssim=0.028229030946946582
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 19717
+*******************************  BA events_num: 36240893  *********************************
+incremental sampling number: 97
+****events_per_seg=366069, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=6.208702087402344, t_data_max=7.458157062530518
+control knot ts: [np.float32(6.208602), 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, 7.208105464, 7.258138141, 7.308123069, 7.358107497, 7.408116425, np.float32(7.458257)]
+iter 0, loss=0.06333773439284415, event=0.034497754108160736, ssim=0.028027784228324894, white=0.0008121960563585162, noevent=0.0, tr=0.0
+iter 500, loss=0.07113080703187734, event=0.042391448486596345, ssim=0.02803379356861115, white=0.000705564976669848, noevent=0.0, tr=0.0
+iter 1000, loss=0.046930175777524716, event=0.018728917632251978, ssim=0.027399360537528995, white=0.0008018976077437401, noevent=0.0, tr=0.0
+iter 1500, loss=0.051554954973980785, event=0.022937282016500832, ssim=0.027837365269660953, white=0.0007803076878190041, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+39it [3:47:17, 301.24s/it]39it [3:47:17, 349.68s/it]
+******************************** global BA ********************************
+*******************************  BA events_num: 59517832  *********************************
+incremental sampling number: 191
+****events_per_seg=306793, min_n_winsize=500000,max_n_winsize=1000000, 
+****t_data_min=5.508644104003906, t_data_max=7.458157062530518
+control knot ts: [np.float32(5.508544), 5.5587950809999995, 5.608906756999999, 5.659070934, 5.709027111, 5.759051288, 5.809052215999999, 5.859013395, 5.9089983230000005, 5.959015001, 6.009031678, 6.0589848570000004, 6.108874287, 6.158761717, 6.208701895, 6.258662324, 6.308599503, 6.358497183, 6.408387112, 6.458316291, 6.50830147, 6.5583336469999995, 6.608287075999999, 6.658152756, 6.707986936, 6.757876616, 6.807869544, 6.857933721, 6.907989898, 6.957998576, 7.007976004, 7.057952682, 7.10797736, 7.158041037, 7.208105464, 7.258138141, 7.308123069, 7.358107497, 7.408116425, np.float32(7.458257)]
+iter 0, loss=0.06656741993036122, event=0.034608240369707347, ssim=0.03115100681781769, white=0.0008081727428361773, noevent=0.0, tr=0.0
+iter 500, loss=0.06118620783789083, event=0.034331234097480776, ssim=0.0260527104139328, white=0.0008022633264772594, noevent=0.0, tr=0.0
+iter 1000, loss=0.06065246623475105, event=0.03256686694920063, ssim=0.0273724240064621, white=0.0007131752790883183, noevent=0.0, tr=0.0
+iter 1500, loss=0.04955996891483665, event=0.022310402169823648, ssim=0.026542887091636658, white=0.0007066796533763409, noevent=0.0, tr=0.0
+Step 2000: 3368 GSs duplicated, 1256 GSs split. Now having 24341 GSs.
+Step 2000: 13354 GSs pruned. Now having 10987 GSs.
+iter 2000, loss=0.053041322126518936, event=0.02443113222718239, ssim=0.027831581234931946, white=0.0007786086644046009, noevent=0.0, tr=0.0
+Step 2500: 4857 GSs duplicated, 1043 GSs split. Now having 16887 GSs.
+Step 2500: 2795 GSs pruned. Now having 14092 GSs.
+iter 2500, loss=0.05077090207953006, event=0.02317202081903815, ssim=0.0268170577287674, white=0.0007818235317245126, noevent=0.0, tr=0.0
+Step 3000: 5751 GSs duplicated, 896 GSs split. Now having 20739 GSs.
+Step 3000: 3207 GSs pruned. Now having 17532 GSs.
+iter 3000, loss=0.05750355653231964, event=0.028076250394806265, ssim=0.02874261856079102, white=0.0006846875767223537, noevent=0.0, tr=0.0
+iter 3500, loss=0.044319923559669405, event=0.01795519228093326, ssim=0.02559627950191498, white=0.0007684517768211663, noevent=0.0, tr=0.0
+iter 4000, loss=0.05194639374734834, event=0.025559665262699125, ssim=0.025585692524909977, white=0.000801035959739238, noevent=0.0, tr=0.0
+iter 4500, loss=0.06078441075282172, event=0.033193999482318756, ssim=0.026930727958679204, white=0.0006596833118237555, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+******* use interpolated pose to render images *******
+================ finished ================

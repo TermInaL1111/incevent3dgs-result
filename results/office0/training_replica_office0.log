@@ -1,0 +1,1132 @@
+Start running...
+
+ ***************************************************
+ experiment name: demo
+ *************************************************** 
+
+Saving config and script...
+begin to load event file
+copying gt images
+valuating image number: 49
+timestamp: [np.float64(1.15), np.float64(1.25), np.float64(1.35), np.float64(1.45), np.float64(1.55), np.float64(1.65), np.float64(1.75), np.float64(1.85), np.float64(1.95), np.float64(2.05), np.float64(2.15), np.float64(2.25), np.float64(2.35), np.float64(2.45), np.float64(2.55), np.float64(2.65), np.float64(2.75), np.float64(2.85), np.float64(2.95), np.float64(3.05), np.float64(3.15), np.float64(3.25), np.float64(3.35), np.float64(3.45), np.float64(3.55), np.float64(3.65), np.float64(3.75), np.float64(3.85), np.float64(3.95), np.float64(4.05), np.float64(4.15), np.float64(4.25), np.float64(4.35), np.float64(4.45), np.float64(4.55), np.float64(4.65), np.float64(4.75), np.float64(4.85), np.float64(4.95), np.float64(5.05), np.float64(5.15), np.float64(5.25), np.float64(5.35), np.float64(5.45), np.float64(5.55), np.float64(5.65), np.float64(5.75), np.float64(5.85), np.float64(5.95)]
+
+finished event loading!
+Scene scale(or size of bounding box): 3.0
+***** Gaussion init_type: random *****
+Model initialized. Number of GS: 100000
+CoSLAM finished initialization...
+
+0it [00:00, ?it/s]1it [00:00,  1.25it/s]2it [00:01,  2.21it/s]************************ Estimate depth during initialization ************************
+#########################   random initialization   #########################
+*******************************  events_num: 2213025  *********************************
+incremental sampling number: 164
+****events_per_seg=11121, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=1.5999995470046997
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001]
+============== initialize control knots with random noise ==============
+finish control knots initialization
+iter 0, loss=0.0434574432624504, event=0.018044915343634785, ssim=0.025412527918815615, white=0.0, noevent=0.0, tr=0.0
+iter 100, loss=0.04571477770805359, event=0.01988724112510681, ssim=0.025827536582946783, white=0.0, noevent=0.0, tr=0.0
+iter 200, loss=0.03287016598973423, event=0.010753450081683696, ssim=0.02211671590805054, white=0.0, noevent=0.0, tr=0.0
+iter 300, loss=0.028957017082721, event=0.008275191802531482, ssim=0.020681825280189515, white=0.0, noevent=0.0, tr=0.0
+iter 400, loss=0.025793738421052696, event=0.0068740171752870085, ssim=0.018919721245765686, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.02136058607837185, event=0.004831722767557949, ssim=0.016528863310813904, white=0.0, noevent=0.0, tr=0.0
+iter 600, loss=0.01940885938704014, event=0.003932688608765602, ssim=0.015476170778274538, white=0.0, noevent=0.0, tr=0.0
+iter 700, loss=0.02026887466199696, event=0.004100834624841809, ssim=0.016168040037155152, white=0.0, noevent=0.0, tr=0.0
+iter 800, loss=0.017567663374356925, event=0.0031972433952614666, ssim=0.01437041997909546, white=0.0, noevent=0.0, tr=0.0
+iter 900, loss=0.016710690539330244, event=0.0029610451869666577, ssim=0.013749645352363588, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.01611926391255111, event=0.0027735944045707583, ssim=0.01334566950798035, white=0.0, noevent=0.0, tr=0.0
+iter 1100, loss=0.016807420738041402, event=0.0029621129110455513, ssim=0.013845307826995851, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 89 GSs duplicated, 7665 GSs split. Now having 107754 GSs.
+Step 1200: 11344 GSs pruned. Now having 96410 GSs.
+iter 1200, loss=0.01629040789557621, event=0.0028332520718686283, ssim=0.013457155823707581, white=0.0, noevent=0.0, tr=0.0
+iter 1300, loss=0.017565636776853355, event=0.0030387993087060746, ssim=0.014526837468147279, white=0.0, noevent=0.0, tr=0.0
+iter 1400, loss=0.017436187118291854, event=0.0030657730996608732, ssim=0.014370414018630982, white=0.0, noevent=0.0, tr=0.0
+Step 1500: 676 GSs duplicated, 8086 GSs split. Now having 105172 GSs.
+Step 1500: 2391 GSs pruned. Now having 102781 GSs.
+iter 1500, loss=0.01493588684126735, event=0.0023189526610076427, ssim=0.012616934180259706, white=0.0, noevent=0.0, tr=0.0
+iter 1600, loss=0.014152767773484813, event=0.0020658082922454923, ssim=0.01208695948123932, white=0.0, noevent=0.0, tr=0.0
+iter 1700, loss=0.014323448394425214, event=0.0020923338877037166, ssim=0.012231114506721498, white=0.0, noevent=0.0, tr=0.0
+Step 1800: 2503 GSs duplicated, 10536 GSs split. Now having 115820 GSs.
+Step 1800: 2379 GSs pruned. Now having 113441 GSs.
+iter 1800, loss=0.014258747044950724, event=0.002007929626852274, ssim=0.01225081741809845, white=0.0, noevent=0.0, tr=0.0
+iter 1900, loss=0.014783244591671973, event=0.0020720772561617193, ssim=0.012711167335510254, white=0.0, noevent=0.0, tr=0.0
+iter 2000, loss=0.01267828160314821, event=0.0016243075707461686, ssim=0.01105397403240204, white=0.0, noevent=0.0, tr=0.0
+/data/IncEventGS/tools/eval_ate.py:223: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig = plt.figure()
+Step 2100: 6659 GSs duplicated, 12793 GSs split. Now having 132893 GSs.
+Step 2100: 2965 GSs pruned. Now having 129928 GSs.
+iter 2100, loss=0.012643023699056358, event=0.0016079252655617892, ssim=0.011035098433494568, white=0.0, noevent=0.0, tr=0.0
+iter 2200, loss=0.013516188780777158, event=0.0017127572698518634, ssim=0.011803431510925295, white=0.0, noevent=0.0, tr=0.0
+iter 2300, loss=0.012188550502760338, event=0.0014754983491729946, ssim=0.010713052153587343, white=0.0, noevent=0.0, tr=0.0
+Step 2400: 14752 GSs duplicated, 14057 GSs split. Now having 158737 GSs.
+Step 2400: 4316 GSs pruned. Now having 154421 GSs.
+iter 2400, loss=0.011201708839507775, event=0.0012745665770489722, ssim=0.009927142262458803, white=0.0, noevent=0.0, tr=0.0
+iter 2500, loss=0.01222899125190452, event=0.0014835797366686164, ssim=0.010745411515235902, white=0.0, noevent=0.0, tr=0.0
+iter 2600, loss=0.011827074756147343, event=0.001344865431310609, ssim=0.010482209324836733, white=0.0, noevent=0.0, tr=0.0
+Step 2700: 26564 GSs duplicated, 13680 GSs split. Now having 194665 GSs.
+Step 2700: 6540 GSs pruned. Now having 188125 GSs.
+iter 2700, loss=0.011456909825792538, event=0.0013000655674841257, ssim=0.010156844258308413, white=0.0, noevent=0.0, tr=0.0
+iter 2800, loss=0.011784153573680671, event=0.0013704997231252492, ssim=0.010413653850555421, white=0.0, noevent=0.0, tr=0.0
+iter 2900, loss=0.011651937253773214, event=0.0013282268121838571, ssim=0.010323710441589357, white=0.0, noevent=0.0, tr=0.0
+iter 3000, loss=0.011545096263289454, event=0.0013399501889944077, ssim=0.010205146074295046, white=0.0, noevent=0.0, tr=0.0
+iter 3100, loss=0.010987740753917024, event=0.0011982172715943307, ssim=0.009789523482322694, white=0.0, noevent=0.0, tr=0.0
+iter 3200, loss=0.01129821312846616, event=0.0012655509752221405, ssim=0.01003266215324402, white=0.0, noevent=0.0, tr=0.0
+iter 3300, loss=0.011699330616975204, event=0.0013409046421293171, ssim=0.010358425974845887, white=0.0, noevent=0.0, tr=0.0
+iter 3400, loss=0.011471810223301874, event=0.0012774770276155322, ssim=0.010194333195686342, white=0.0, noevent=0.0, tr=0.0
+iter 3500, loss=0.011713658357039096, event=0.001292534852400422, ssim=0.010421123504638674, white=0.0, noevent=0.0, tr=0.0
+iter 3600, loss=0.010482864598743619, event=0.001090517262928188, ssim=0.009392347335815432, white=0.0, noevent=0.0, tr=0.0
+iter 3700, loss=0.011147314892732539, event=0.0011942642793292182, ssim=0.009953050613403321, white=0.0, noevent=0.0, tr=0.0
+iter 3800, loss=0.010450907188933345, event=0.0010800622287206352, ssim=0.00937084496021271, white=0.0, noevent=0.0, tr=0.0
+iter 3900, loss=0.011097162794321777, event=0.0012477688305079938, ssim=0.009849393963813784, white=0.0, noevent=0.0, tr=0.0
+iter 4000, loss=0.010616472433321178, event=0.0011326373321935534, ssim=0.009483835101127625, white=0.0, noevent=0.0, tr=0.0
+iter 4100, loss=0.011147352936677636, event=0.0011940245656296613, ssim=0.009953328371047974, white=0.0, noevent=0.0, tr=0.0
+iter 4200, loss=0.01043987148848828, event=0.0010775821789866314, ssim=0.009362289309501648, white=0.0, noevent=0.0, tr=0.0
+iter 4300, loss=0.01012729240464978, event=0.001056768427370116, ssim=0.009070523977279664, white=0.0, noevent=0.0, tr=0.0
+iter 4400, loss=0.011605120007880033, event=0.001312188212759793, ssim=0.01029293179512024, white=0.0, noevent=0.0, tr=0.0
+iter 4500, loss=0.010606275970349088, event=0.0011163373535964638, ssim=0.009489938616752625, white=0.0, noevent=0.0, tr=0.0
+********** Number of GS: 188125
+======================= finished initialization  =========================
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_deprecation.py:131: FutureWarning: 'cached_download' (from 'huggingface_hub.file_download') is deprecated and will be removed from version '0.26'. Use `hf_hub_download` instead.
+  warnings.warn(warning_message, FutureWarning)
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:672: FutureWarning: 'cached_download' is the legacy way to download files from the HF hub, please consider upgrading to 'hf_hub_download'
+  warnings.warn(
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/file_download.py:678: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/root/miniconda3/lib/python3.10/site-packages/huggingface_hub/utils/_deprecation.py:131: FutureWarning: 'url_to_filename' (from 'huggingface_hub.file_download') is deprecated and will be removed from version '0.26'. Use `hf_hub_download` to benefit from the new cache layout.
+  warnings.warn(warning_message, FutureWarning)
+The config attributes {'prediction_type': 'depth', 'scale_invariant': True, 'shift_invariant': True, 'default_denoising_steps': 1, 'default_processing_resolution': 768} were passed to MarigoldPipeline, but are not expected and will be ignored. Please verify your model_index.json configuration file.
+Keyword arguments {'prediction_type': 'depth', 'scale_invariant': True, 'shift_invariant': True, 'default_denoising_steps': 1, 'default_processing_resolution': 768} are not expected by MarigoldPipeline and will be ignored.
+
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s][A
+Loading pipeline components...:  60%|██████    | 3/5 [00:00<00:00, 22.63it/s][ALoading pipeline components...: 100%|██████████| 5/5 [00:00<00:00,  9.03it/s]
+
+  Inference batches:   0%|          | 0/2 [00:00<?, ?it/s][A
+
+    Diffusion denoising:   0%|          | 0/10 [00:00<?, ?it/s][A[A
+
+    Diffusion denoising:  10%|█         | 1/10 [00:00<00:02,  3.34it/s][A[A
+
+    Diffusion denoising:  20%|██        | 2/10 [00:00<00:02,  3.56it/s][A[A
+
+    Diffusion denoising:  30%|███       | 3/10 [00:00<00:01,  3.69it/s][A[A
+
+    Diffusion denoising:  40%|████      | 4/10 [00:01<00:01,  3.86it/s][A[A
+
+    Diffusion denoising:  50%|█████     | 5/10 [00:01<00:01,  3.94it/s][A[A
+
+    Diffusion denoising:  60%|██████    | 6/10 [00:01<00:01,  3.94it/s][A[A
+
+    Diffusion denoising:  70%|███████   | 7/10 [00:01<00:00,  3.83it/s][A[A
+
+    Diffusion denoising:  80%|████████  | 8/10 [00:02<00:00,  3.77it/s][A[A
+
+    Diffusion denoising:  90%|█████████ | 9/10 [00:02<00:00,  3.73it/s][A[A
+
+    Diffusion denoising: 100%|██████████| 10/10 [00:02<00:00,  3.70it/s][A[A
+
+                                                                        [A[A
+  Inference batches:  50%|█████     | 1/2 [00:03<00:03,  3.45s/it][A
+
+    Diffusion denoising:   0%|          | 0/10 [00:00<?, ?it/s][A[A
+
+    Diffusion denoising:  10%|█         | 1/10 [00:00<00:05,  1.74it/s][A[A
+
+    Diffusion denoising:  20%|██        | 2/10 [00:00<00:03,  2.56it/s][A[A
+
+    Diffusion denoising:  30%|███       | 3/10 [00:01<00:02,  2.98it/s][A[A
+
+    Diffusion denoising:  40%|████      | 4/10 [00:01<00:01,  3.21it/s][A[A
+
+    Diffusion denoising:  50%|█████     | 5/10 [00:01<00:01,  3.35it/s][A[A
+
+    Diffusion denoising:  60%|██████    | 6/10 [00:01<00:01,  3.45it/s][A[A
+
+    Diffusion denoising:  70%|███████   | 7/10 [00:02<00:00,  3.51it/s][A[A
+
+    Diffusion denoising:  80%|████████  | 8/10 [00:02<00:00,  3.57it/s][A[A
+
+    Diffusion denoising:  90%|█████████ | 9/10 [00:02<00:00,  3.61it/s][A[A
+
+    Diffusion denoising: 100%|██████████| 10/10 [00:02<00:00,  3.71it/s][A[A
+
+                                                                        [A[A
+  Inference batches: 100%|██████████| 2/2 [00:06<00:00,  3.45s/it][A
+                                                                  [A/root/miniconda3/lib/python3.10/site-packages/scipy/optimize/_numdiff.py:619: RuntimeWarning: invalid value encountered in divide
+  J_transposed[i] = df / dx
+[initialization]: load depth map from output/final/office0/demo/depth_data.npy
+#########################   initialization with depth_map   #########################
+Use provided depth map for scene initialization...
+***** Gaussion init_type: sfm *****
+*******************************  events_num: 2213025  *********************************
+incremental sampling number: 164
+****events_per_seg=11121, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=1.5999995470046997
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001]
+============== initialize control knots with pose of last stage ==============
+finish control knots initialization
+iter 0, loss=0.08199717722833157, event=0.03412295959889888, ssim=0.04787421762943268, white=0.0, noevent=0.0, tr=0.0
+iter 100, loss=0.04182471449486912, event=0.01522760565392673, ssim=0.026597108840942386, white=0.0, noevent=0.0, tr=0.0
+iter 200, loss=0.04116776315495372, event=0.015798059981316327, ssim=0.025369703173637393, white=0.0, noevent=0.0, tr=0.0
+iter 300, loss=0.03139208015985787, event=0.00982160327024758, ssim=0.021570476889610293, white=0.0, noevent=0.0, tr=0.0
+iter 400, loss=0.02548533972585574, event=0.006830788815859705, ssim=0.018654550909996036, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01894333475036547, event=0.0040653943340294065, ssim=0.014877940416336062, white=0.0, noevent=0.0, tr=0.0
+iter 600, loss=0.01704996721120551, event=0.0032791341957636175, ssim=0.013770833015441894, white=0.0, noevent=0.0, tr=0.0
+iter 700, loss=0.017009535091929137, event=0.0031613930640742183, ssim=0.01384814202785492, white=0.0, noevent=0.0, tr=0.0
+iter 800, loss=0.017464429922401905, event=0.0034034379199147226, ssim=0.014060992002487184, white=0.0, noevent=0.0, tr=0.0
+iter 900, loss=0.01527065990259871, event=0.002486095407512039, ssim=0.012784564495086671, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.015351699138991537, event=0.0024840737832710147, ssim=0.012867625355720523, white=0.0, noevent=0.0, tr=0.0
+iter 1100, loss=0.014993094690144064, event=0.0023938076570630073, ssim=0.012599287033081056, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 28447 GSs duplicated, 172 GSs split. Now having 58619 GSs.
+Step 1200: 31316 GSs pruned. Now having 27303 GSs.
+iter 1200, loss=0.015857585214544088, event=0.0026064832438714805, ssim=0.013251101970672608, white=0.0, noevent=0.0, tr=0.0
+iter 1300, loss=0.013657786863623188, event=0.0019978767808061094, ssim=0.011659910082817079, white=0.0, noevent=0.0, tr=0.0
+iter 1400, loss=0.013666042393306273, event=0.0020020440279040486, ssim=0.011663998365402224, white=0.0, noevent=0.0, tr=0.0
+Step 1500: 20420 GSs duplicated, 189 GSs split. Now having 47912 GSs.
+Step 1500: 11034 GSs pruned. Now having 36878 GSs.
+iter 1500, loss=0.012918350412510339, event=0.0017613491555675865, ssim=0.011157001256942752, white=0.0, noevent=0.0, tr=0.0
+iter 1600, loss=0.013349715630756693, event=0.0019622083113063128, ssim=0.011387507319450381, white=0.0, noevent=0.0, tr=0.0
+iter 1700, loss=0.013274584655882792, event=0.0018875410605687648, ssim=0.011387043595314027, white=0.0, noevent=0.0, tr=0.0
+Step 1800: 24665 GSs duplicated, 205 GSs split. Now having 61748 GSs.
+Step 1800: 13770 GSs pruned. Now having 47978 GSs.
+iter 1800, loss=0.013873479273170234, event=0.002106482293456793, ssim=0.01176699697971344, white=0.0, noevent=0.0, tr=0.0
+iter 1900, loss=0.01289852939080447, event=0.001710701803676784, ssim=0.011187827587127686, white=0.0, noevent=0.0, tr=0.0
+iter 2000, loss=0.013137150300899523, event=0.0017782806290779264, ssim=0.011358869671821595, white=0.0, noevent=0.0, tr=0.0
+Step 2100: 28671 GSs duplicated, 221 GSs split. Now having 76870 GSs.
+Step 2100: 16946 GSs pruned. Now having 59924 GSs.
+iter 2100, loss=0.012615295530995354, event=0.0016447995917405933, ssim=0.010970495939254761, white=0.0, noevent=0.0, tr=0.0
+iter 2200, loss=0.01241100041777827, event=0.0016342022886965425, ssim=0.010776798129081729, white=0.0, noevent=0.0, tr=0.0
+iter 2300, loss=0.012680172288091854, event=0.001715452038915828, ssim=0.010964720249176026, white=0.0, noevent=0.0, tr=0.0
+Step 2400: 32648 GSs duplicated, 236 GSs split. Now having 92808 GSs.
+Step 2400: 19654 GSs pruned. Now having 73154 GSs.
+iter 2400, loss=0.01348960944917053, event=0.0018457181146368383, ssim=0.011643891334533692, white=0.0, noevent=0.0, tr=0.0
+iter 2500, loss=0.012437415209133178, event=0.0015653354790993034, ssim=0.010872079730033875, white=0.0, noevent=0.0, tr=0.0
+iter 2600, loss=0.0132875552715268, event=0.0017364922107663005, ssim=0.0115510630607605, white=0.0, noevent=0.0, tr=0.0
+Step 2700: 36138 GSs duplicated, 252 GSs split. Now having 109544 GSs.
+Step 2700: 22210 GSs pruned. Now having 87334 GSs.
+iter 2700, loss=0.012717349679442123, event=0.001639942676993087, ssim=0.011077407002449037, white=0.0, noevent=0.0, tr=0.0
+iter 2800, loss=0.01225288326968439, event=0.0015463554405141622, ssim=0.010706527829170228, white=0.0, noevent=0.0, tr=0.0
+iter 2900, loss=0.013214253146434204, event=0.0017589824984315782, ssim=0.011455270648002626, white=0.0, noevent=0.0, tr=0.0
+iter 3000, loss=0.012409575999481604, event=0.0015603302128147335, ssim=0.010849245786666871, white=0.0, noevent=0.0, tr=0.0
+iter 3100, loss=0.011571182163897901, event=0.0014073754870332776, ssim=0.010163806676864624, white=0.0, noevent=0.0, tr=0.0
+iter 3200, loss=0.011833513604942711, event=0.0014680471294559539, ssim=0.010365466475486758, white=0.0, noevent=0.0, tr=0.0
+iter 3300, loss=0.01191972646978684, event=0.001466314533026889, ssim=0.01045341193675995, white=0.0, noevent=0.0, tr=0.0
+iter 3400, loss=0.011792457278352231, event=0.001397534783463925, ssim=0.010394922494888307, white=0.0, noevent=0.0, tr=0.0
+iter 3500, loss=0.01191266857669689, event=0.0014321830181870609, ssim=0.010480485558509828, white=0.0, noevent=0.0, tr=0.0
+********** Number of GS: 87334
+======================= finished initialization  =========================
+5it [22:06, 316.59s/it]Process frame 6
+Tracking frame6 to frame6
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.0994415278762233e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 367486  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.018332473953045814, event=0.004006224455374707, ssim=0.014326249497671107
+iter 100, loss=0.015658907223866425, event=0.002434841730304968, ssim=0.013224065493561456
+iter 200, loss=0.015330696136864552, event=0.002305072845861276, ssim=0.013025623291003275
+======================= finished tracking  =========================
+6it [22:17, 238.82s/it]Process frame 7
+Tracking frame7 to frame7
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.768371586472142e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 313555  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.024137418872201298, event=0.0065428258900175704, ssim=0.017594592982183726
+iter 100, loss=0.019319116544518698, event=0.0037081264104575767, ssim=0.015610990134061122
+iter 200, loss=0.019208464444808625, event=0.00361109378719565, ssim=0.015597370657612976
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 88334
+*******************************  BA events_num: 2894066  *********************************
+incremental sampling number: 86
+****events_per_seg=29232, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=1.7999999523162842
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, np.float32(1.8001)]
+iter 0, loss=0.02313943116227165, event=0.0038179775909520683, ssim=0.01932145357131958, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012237681896658616, event=0.00147562995669432, ssim=0.010762051939964296, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.011827493126038462, event=0.0013599221059121193, ssim=0.010467571020126343, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 36092 GSs duplicated, 758 GSs split. Now having 125184 GSs.
+Step 1200: 37371 GSs pruned. Now having 87813 GSs.
+Step 1500: 40547 GSs duplicated, 494 GSs split. Now having 128854 GSs.
+Step 1500: 24211 GSs pruned. Now having 104643 GSs.
+iter 1500, loss=0.012595933496486397, event=0.001489164053928107, ssim=0.011106769442558291, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+7it [26:38, 244.73s/it]Process frame 8
+Tracking frame8 to frame8
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.3841857821338408e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 256016  *********************************
+************************  N_window for init: 252015  ***************
+iter 0, loss=0.030252151634810407, event=0.009847419174106295, ssim=0.020404732460704112
+iter 100, loss=0.021085272029063892, event=0.003890294893913982, ssim=0.01719497713514991
+iter 200, loss=0.02106670618257698, event=0.0038680306840876114, ssim=0.017198675498489368
+======================= finished tracking  =========================
+8it [26:49, 180.21s/it]Process frame 9
+Tracking frame9 to frame9
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.5367431640625e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 217270  *********************************
+************************  N_window for init: 213269  ***************
+iter 0, loss=0.02876720932058667, event=0.0088155741447413, ssim=0.01995163517584537
+iter 100, loss=0.022211698756480994, event=0.004494992536568758, ssim=0.017716706219912236
+iter 200, loss=0.02214411137789276, event=0.0044431079413060365, ssim=0.01770100343658672
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 105643
+*******************************  BA events_num: 3367352  *********************************
+incremental sampling number: 88
+****events_per_seg=34013, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=1.9999990463256836
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, np.float32(2.000099)]
+iter 0, loss=0.025010692288633438, event=0.004588722994085402, ssim=0.020421969294548037, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012737584660062567, event=0.001547983834752813, ssim=0.011189600825309754, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012667970344191419, event=0.0015408727375324815, ssim=0.011127097606658937, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 40799 GSs duplicated, 880 GSs split. Now having 147322 GSs.
+Step 1200: 43137 GSs pruned. Now having 104185 GSs.
+Step 1500: 43891 GSs duplicated, 534 GSs split. Now having 148610 GSs.
+Step 1500: 26932 GSs pruned. Now having 121678 GSs.
+iter 1500, loss=0.012288732990855353, event=0.0015118144603911787, ssim=0.010776918530464174, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+9it [31:19, 205.63s/it]Process frame 10
+Tracking frame10 to frame10
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743172944284e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 237570  *********************************
+************************  N_window for init: 233569  ***************
+iter 0, loss=0.03180469141159306, event=0.011893156615549969, ssim=0.01991153479604309
+iter 100, loss=0.01943378578053317, event=0.00394261694973055, ssim=0.01549116883080262
+iter 200, loss=0.01934559309429642, event=0.0038384506007663323, ssim=0.015507142493530086
+======================= finished tracking  =========================
+10it [31:30, 149.66s/it]Process frame 11
+Tracking frame11 to frame11
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.291534425604482e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 298912  *********************************
+************************  N_window for init: 294911  ***************
+iter 0, loss=0.029418596929167, event=0.010718367923342546, ssim=0.018700229005824454
+iter 100, loss=0.02205333887098691, event=0.005049314436054386, ssim=0.017004024434932524
+iter 200, loss=0.021833221003757633, event=0.0048082112784354715, ssim=0.01702500972532216
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 122678
+*******************************  BA events_num: 3903834  *********************************
+incremental sampling number: 89
+****events_per_seg=39432, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=2.1999995708465576
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, np.float32(2.2000995)]
+iter 0, loss=0.022007582455407827, event=0.0035151543910615143, ssim=0.018492428064346315, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012968814217019828, event=0.0015624253381974996, ssim=0.011406388878822327, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013202231177128852, event=0.001628406890667975, ssim=0.011573824286460878, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 42861 GSs duplicated, 1006 GSs split. Now having 166545 GSs.
+Step 1200: 49647 GSs pruned. Now having 116898 GSs.
+Step 1500: 45441 GSs duplicated, 595 GSs split. Now having 162934 GSs.
+Step 1500: 28575 GSs pruned. Now having 134359 GSs.
+iter 1500, loss=0.012336528333835306, event=0.0014312440482899546, ssim=0.01090528428554535, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+11it [36:03, 185.57s/it]Process frame 12
+Tracking frame12 to frame12
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.7683715642676816e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 386365  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03676221982615512, event=0.011423212699933799, ssim=0.025339007126221325
+iter 100, loss=0.023316584087808526, event=0.005111856973279128, ssim=0.018204727114529397
+iter 200, loss=0.023169945078634586, event=0.005079282770389903, ssim=0.018090662308244684
+======================= finished tracking  =========================
+12it [36:14, 134.36s/it]Process frame 13
+Tracking frame13 to frame13
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.8146972647368216e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 484008  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.032765244722188364, event=0.010598446923152404, ssim=0.02216679779903596
+iter 100, loss=0.025518491825924902, event=0.006225794050954617, ssim=0.019292697774970287
+iter 200, loss=0.026031262766374023, event=0.0065863023150559774, ssim=0.019444960451318046
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 135359
+*******************************  BA events_num: 4774207  *********************************
+incremental sampling number: 91
+****events_per_seg=48224, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=2.3999996185302734
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, np.float32(2.4000995)]
+iter 0, loss=0.03357435008045286, event=0.013309365115128457, ssim=0.020264984965324404, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.011509098178939895, event=0.001386227972107008, ssim=0.010122870206832887, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.01321803946513683, event=0.0017853071214631198, ssim=0.011432732343673709, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 43815 GSs duplicated, 1155 GSs split. Now having 180329 GSs.
+Step 1200: 53606 GSs pruned. Now having 126723 GSs.
+Step 1500: 46280 GSs duplicated, 678 GSs split. Now having 173681 GSs.
+Step 1500: 30269 GSs pruned. Now having 143412 GSs.
+iter 1500, loss=0.012393642574315892, event=0.0015329240856226532, ssim=0.010860718488693239, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+13it [40:49, 175.71s/it]Process frame 14
+Tracking frame14 to frame14
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-7.152557373046875e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 592414  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02834512904073561, event=0.009108992132278452, ssim=0.019236136908457158
+iter 100, loss=0.019613849469174827, event=0.004271468081738766, ssim=0.015342381387436061
+iter 200, loss=0.020424058510405182, event=0.004531842549249206, ssim=0.015892215961155975
+======================= finished tracking  =========================
+14it [41:00, 126.89s/it]Process frame 15
+Tracking frame15 to frame15
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743172944284e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 725291  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03426716940743001, event=0.01251117210137192, ssim=0.02175599730605809
+iter 100, loss=0.021989581886075776, event=0.005008488019503576, ssim=0.016981093866572202
+iter 200, loss=0.021595482701458092, event=0.004858636471053481, ssim=0.01673684623040461
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 144412
+*******************************  BA events_num: 6091912  *********************************
+incremental sampling number: 93
+****events_per_seg=61535, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=2.5999999046325684
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, np.float32(2.6000998)]
+iter 0, loss=0.020686924946494403, event=0.0037579374434426427, ssim=0.01692898750305176, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012740548077272252, event=0.0018752537399996073, ssim=0.010865294337272645, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012821544848848137, event=0.0017233519186265766, ssim=0.01109819293022156, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 45974 GSs duplicated, 1220 GSs split. Now having 191606 GSs.
+Step 1200: 58037 GSs pruned. Now having 133569 GSs.
+Step 1500: 48002 GSs duplicated, 729 GSs split. Now having 182300 GSs.
+Step 1500: 31185 GSs pruned. Now having 151115 GSs.
+iter 1500, loss=0.013512534580659123, event=0.0020535601000301537, ssim=0.01145897448062897, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+15it [45:35, 171.19s/it]Process frame 16
+Tracking frame16 to frame16
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-6.675720216620107e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 844238  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.029167371458310123, event=0.009609749138808472, ssim=0.01955762231950165
+iter 100, loss=0.02093740835773976, event=0.004701388864737732, ssim=0.016236019493002025
+iter 200, loss=0.019910674465632754, event=0.004295517870836662, ssim=0.015615156594796092
+======================= finished tracking  =========================
+16it [45:47, 123.50s/it]Process frame 17
+Tracking frame17 to frame17
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.7683715642676816e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 976742  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.030323406776675742, event=0.010232945562334764, ssim=0.02009046121434098
+iter 100, loss=0.023365960362102152, event=0.005674208540147758, ssim=0.017691751821954396
+iter 200, loss=0.02360329051759008, event=0.005816898513705771, ssim=0.01778639200388431
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 152115
+*******************************  BA events_num: 7912892  *********************************
+incremental sampling number: 94
+****events_per_seg=79928, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=2.799999952316284
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, np.float32(2.8000998)]
+iter 0, loss=0.021032803885173056, event=0.004218976728152484, ssim=0.01681382715702057, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.0128296316775959, event=0.0017818344745319336, ssim=0.011047797203063967, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012992865958949551, event=0.0016926776559557765, ssim=0.011300188302993775, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 47559 GSs duplicated, 1306 GSs split. Now having 200980 GSs.
+Step 1200: 59356 GSs pruned. Now having 141624 GSs.
+Step 1500: 49395 GSs duplicated, 733 GSs split. Now having 191752 GSs.
+Step 1500: 33369 GSs pruned. Now having 158383 GSs.
+iter 1500, loss=0.012591666521038863, event=0.0016466193809174, ssim=0.010945047140121462, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+17it [50:28, 170.68s/it]Process frame 18
+Tracking frame18 to frame18
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.4305114737211966e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1111523  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03785162714904442, event=0.016050015726337862, ssim=0.02180161142270656
+iter 100, loss=0.019793935993533032, event=0.0039660798320566995, ssim=0.015827856161476334
+iter 200, loss=0.019991895288523947, event=0.004110640613167431, ssim=0.015881254675356515
+======================= finished tracking  =========================
+18it [50:40, 123.00s/it]Process frame 19
+Tracking frame19 to frame19
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.76837158203125e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1265283  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02374290560667169, event=0.0065733732139488235, ssim=0.017169532392722866
+iter 100, loss=0.02129915357281218, event=0.005002662010368242, ssim=0.01629649156244394
+iter 200, loss=0.02028557556729054, event=0.004369734496903357, ssim=0.015915841070387182
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 159383
+*******************************  BA events_num: 10289698  *********************************
+incremental sampling number: 96
+****events_per_seg=103936, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=2.999999523162842
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, np.float32(3.0000994)]
+iter 0, loss=0.019823163696564734, event=0.0034776979172602297, ssim=0.016345465779304506, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01347036704304628, event=0.0019021634745877238, ssim=0.011568203568458557, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012259554570773618, event=0.0014734777866397054, ssim=0.010786076784133913, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 47778 GSs duplicated, 1268 GSs split. Now having 208429 GSs.
+Step 1200: 59878 GSs pruned. Now having 148551 GSs.
+Step 1500: 51098 GSs duplicated, 763 GSs split. Now having 200412 GSs.
+Step 1500: 34979 GSs pruned. Now having 165433 GSs.
+iter 1500, loss=0.013430851832963529, event=0.002027540341950953, ssim=0.011403311491012575, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+19it [55:22, 170.86s/it]Process frame 20
+Tracking frame20 to frame20
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743172944284e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1384311  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.027036333010384633, event=0.009415239195182007, ssim=0.01762109381520263
+iter 100, loss=0.01801666456333284, event=0.0037165730631560302, ssim=0.01430009150017681
+iter 200, loss=0.017847307124592083, event=0.0036375388796366257, ssim=0.014209768244955456
+======================= finished tracking  =========================
+20it [55:34, 123.00s/it]Process frame 21
+Tracking frame21 to frame21
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.291534425604482e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1494448  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.021837675402177147, event=0.005970611183846236, ssim=0.015867064218330913
+iter 100, loss=0.02188481233080294, event=0.006231969853904146, ssim=0.015652842476898795
+iter 200, loss=0.021474542280237176, event=0.005947901921902462, ssim=0.015526640358334716
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 166433
+*******************************  BA events_num: 12711753  *********************************
+incremental sampling number: 96
+****events_per_seg=128401, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.2000000476837158, t_data_max=3.1999995708465576
+control knot ts: [np.float32(1.1999), 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, np.float32(3.2000995)]
+iter 0, loss=0.01872103390051052, event=0.003588058322202414, ssim=0.015132975578308106, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012594419448869304, event=0.0017736217670608313, ssim=0.010820797681808473, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.011588142194086687, event=0.001600891031557694, ssim=0.009987251162528993, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 48721 GSs duplicated, 1364 GSs split. Now having 216518 GSs.
+Step 1200: 64157 GSs pruned. Now having 152361 GSs.
+Step 1500: 50994 GSs duplicated, 821 GSs split. Now having 204176 GSs.
+Step 1500: 34329 GSs pruned. Now having 169847 GSs.
+iter 1500, loss=0.012520960181718695, event=0.0016125776467379182, ssim=0.010908382534980776, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+21it [1:00:21, 172.23s/it]Process frame 22
+Tracking frame22 to frame22
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.7683715642676816e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1578836  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.027093908911382605, event=0.009204715463747931, ssim=0.017889193447634674
+iter 100, loss=0.018713347703506168, event=0.004150852681009338, ssim=0.01456249502249683
+iter 200, loss=0.0190972150419505, event=0.0043986088477486335, ssim=0.014698606194201864
+======================= finished tracking  =========================
+22it [1:00:32, 124.00s/it]Process frame 23
+Tracking frame23 to frame23
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.4305114737211966e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1636481  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.024875863206619303, event=0.007294547414967705, ssim=0.0175813157916516
+iter 100, loss=0.02262609833432271, event=0.006142688447733119, ssim=0.01648340988658959
+iter 200, loss=0.02333857768161491, event=0.0064629607360446985, ssim=0.016875616945570212
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 170847
+*******************************  BA events_num: 15017452  *********************************
+incremental sampling number: 97
+****events_per_seg=151691, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.4000004529953003, t_data_max=3.3999998569488525
+control knot ts: [np.float32(1.3999004), 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, np.float32(3.4000998)]
+iter 0, loss=0.021438989150337876, event=0.004636167394928635, ssim=0.01680282175540924, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.013539805315667765, event=0.0019437192904297263, ssim=0.01159608602523804, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.01341986325569451, event=0.0022232809383422136, ssim=0.011196582317352296, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 49246 GSs duplicated, 1435 GSs split. Now having 221528 GSs.
+Step 1200: 62275 GSs pruned. Now having 159253 GSs.
+Step 1500: 53653 GSs duplicated, 871 GSs split. Now having 213777 GSs.
+Step 1500: 34287 GSs pruned. Now having 179490 GSs.
+iter 1500, loss=0.012191492492565887, event=0.0017782201117370277, ssim=0.01041327238082886, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+23it [1:05:15, 171.71s/it]Process frame 24
+Tracking frame24 to frame24
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.384185791015625e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1641776  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.026469183021284086, event=0.008259455621892023, ssim=0.018209727399392063
+iter 100, loss=0.02099095367801629, event=0.005083473171100438, ssim=0.01590748050691585
+iter 200, loss=0.01981445112338522, event=0.004527198029449313, ssim=0.015287253093935905
+======================= finished tracking  =========================
+24it [1:05:27, 123.89s/it]Process frame 25
+Tracking frame25 to frame25
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743172944284e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1584506  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.029644868478324066, event=0.010435468726448044, ssim=0.019209399751876022
+iter 100, loss=0.022747784938576786, event=0.006074781549860091, ssim=0.016673003388716696
+iter 200, loss=0.025280930973722537, event=0.005670324163889612, ssim=0.019610606809832926
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 180490
+*******************************  BA events_num: 17397031  *********************************
+incremental sampling number: 97
+****events_per_seg=175727, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.600000023841858, t_data_max=3.5999999046325684
+control knot ts: [np.float32(1.5999), 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, np.float32(3.6000998)]
+iter 0, loss=0.023197394763119522, event=0.0037251950846984984, ssim=0.019472199678421023, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.011840494949137793, event=0.001767865497386083, ssim=0.01007262945175171, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012968978137942032, event=0.001816288084955886, ssim=0.011152690052986147, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 50854 GSs duplicated, 1432 GSs split. Now having 232776 GSs.
+Step 1200: 66153 GSs pruned. Now having 166623 GSs.
+Step 1500: 55084 GSs duplicated, 918 GSs split. Now having 222625 GSs.
+Step 1500: 34238 GSs pruned. Now having 188387 GSs.
+iter 1500, loss=0.011561043593101205, event=0.0015861061541363598, ssim=0.009974937438964845, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+25it [1:10:12, 172.16s/it]Process frame 26
+Tracking frame26 to frame26
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.9073486345888568e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1466674  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02280090135847681, event=0.0068595671780513475, ssim=0.01594133418042546
+iter 100, loss=0.020278252356930586, event=0.005346002883556763, ssim=0.014932249473373821
+iter 200, loss=0.019385924069363687, event=0.004793697211565633, ssim=0.014592226857798053
+======================= finished tracking  =========================
+26it [1:10:24, 124.17s/it]Process frame 27
+Tracking frame27 to frame27
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.7683715642676816e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1329076  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03779697510922968, event=0.016778745625179555, ssim=0.02101822948405012
+iter 100, loss=0.023273993787692935, event=0.007001260809055557, ssim=0.016272732978637378
+iter 200, loss=0.022300894539244807, event=0.006459500020205619, ssim=0.01584139451903919
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 189387
+*******************************  BA events_num: 19511740  *********************************
+incremental sampling number: 97
+****events_per_seg=197088, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.8000003099441528, t_data_max=3.799999952316284
+control knot ts: [np.float32(1.7999003), 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, np.float32(3.8000998)]
+iter 0, loss=0.01859050998929888, event=0.003507989146746695, ssim=0.015082520842552186, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.014551874386379495, event=0.00284498511464335, ssim=0.011706889271736146, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012097784467041493, event=0.0017629267647862434, ssim=0.01033485770225525, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 53112 GSs duplicated, 1439 GSs split. Now having 243938 GSs.
+Step 1200: 69689 GSs pruned. Now having 174249 GSs.
+Step 1500: 56327 GSs duplicated, 868 GSs split. Now having 231444 GSs.
+Step 1500: 34987 GSs pruned. Now having 196457 GSs.
+iter 1500, loss=0.0130264085077215, event=0.0018430220626760275, ssim=0.011183386445045473, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+27it [1:15:10, 172.56s/it]Process frame 28
+Tracking frame28 to frame28
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.8146972647368216e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1187184  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.029447367014709465, event=0.01075680195375156, ssim=0.018690565060957905
+iter 100, loss=0.019706191507835685, event=0.004876191777593864, ssim=0.014829999730241822
+iter 200, loss=0.020542014485079703, event=0.005179738317325866, ssim=0.015362276167753836
+======================= finished tracking  =========================
+28it [1:15:22, 124.28s/it]Process frame 29
+Tracking frame29 to frame29
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.384185791015625e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1058351  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.043917078277572595, event=0.0200062396028935, ssim=0.023910838674679094
+iter 100, loss=0.023151473826822193, event=0.006333594859173234, ssim=0.01681787896764896
+iter 200, loss=0.021412876561876494, event=0.005386576430409525, ssim=0.01602630013146697
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 197457
+*******************************  BA events_num: 21283989  *********************************
+incremental sampling number: 98
+****events_per_seg=214989, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=2.0, t_data_max=3.999999761581421
+control knot ts: [np.float32(1.9999), 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, np.float32(4.0000997)]
+iter 0, loss=0.017683307505212728, event=0.0035450613265857103, ssim=0.014138246178627016, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012223410810111093, event=0.0017514296423178166, ssim=0.010471981167793276, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013067465877393263, event=0.0019535933493170887, ssim=0.011113872528076173, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 55749 GSs duplicated, 1424 GSs split. Now having 254630 GSs.
+Step 1200: 72819 GSs pruned. Now having 181811 GSs.
+Step 1500: 60242 GSs duplicated, 845 GSs split. Now having 242898 GSs.
+Step 1500: 36901 GSs pruned. Now having 205997 GSs.
+iter 1500, loss=0.013446620082249868, event=0.0020671522372867914, ssim=0.011379467844963076, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+29it [1:20:13, 174.42s/it]Process frame 30
+Tracking frame30 to frame30
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743128535363e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 931837  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.031194483329880545, event=0.011480838757266087, ssim=0.019713644572614458
+iter 100, loss=0.02137329887109377, event=0.005478800707113866, ssim=0.015894498163979903
+iter 200, loss=0.020934926082558647, event=0.0052132267320358, ssim=0.01572169935052285
+======================= finished tracking  =========================
+******************************** global BA ********************************
+
+
+ ------------------ num_opti_steps_for_global_BA = 2500---------------------
+*******************************  BA events_num: 25583178  *********************************
+incremental sampling number: 590
+****events_per_seg=42710, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=4.099999904632568
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, np.float32(4.1001)]
+iter 0, loss=0.01788029903313145, event=0.0035153495683334767, ssim=0.014364949464797975, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01392357619246468, event=0.0022096344991587103, ssim=0.01171394169330597, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013098028260283173, event=0.0018987422762438654, ssim=0.011199285984039308, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 63158 GSs duplicated, 1796 GSs split. Now having 270951 GSs.
+Step 1200: 90180 GSs pruned. Now having 180771 GSs.
+Step 1500: 66181 GSs duplicated, 897 GSs split. Now having 247849 GSs.
+Step 1500: 35620 GSs pruned. Now having 212229 GSs.
+iter 1500, loss=0.012970923888497056, event=0.0020968342898413537, ssim=0.010874089598655701, white=0.0, noevent=0.0, tr=0.0
+Step 1800: 68394 GSs duplicated, 696 GSs split. Now having 281319 GSs.
+Step 1800: 39160 GSs pruned. Now having 242159 GSs.
+iter 2000, loss=0.01287451947689988, event=0.0018965467310044916, ssim=0.010977972745895388, white=0.0, noevent=0.0, tr=0.0
+Step 2100: 71378 GSs duplicated, 655 GSs split. Now having 314192 GSs.
+Step 2100: 41121 GSs pruned. Now having 273071 GSs.
+Step 2400: 73790 GSs duplicated, 598 GSs split. Now having 347459 GSs.
+Step 2400: 43089 GSs pruned. Now having 304370 GSs.
+======================= finished BA  =========================
+30it [1:28:29, 270.93s/it]Process frame 31
+Tracking frame31 to frame31
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.9073486345888568e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 816802  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.01814925342610893, event=0.004640231576234183, ssim=0.013509021849874748
+iter 100, loss=0.015109838772496255, event=0.0028488565162045516, ssim=0.012260982256291703
+iter 200, loss=0.015387581873785304, event=0.002961715486319181, ssim=0.012425866387466122
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 305370
+*******************************  BA events_num: 22496146  *********************************
+incremental sampling number: 98
+****events_per_seg=227233, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=2.200000047683716, t_data_max=4.199999809265137
+control knot ts: [np.float32(2.1999002), 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, np.float32(4.2001)]
+iter 0, loss=0.01401206051465124, event=0.002185994735918939, ssim=0.011826065778732301, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01356475928099826, event=0.0020520619419403374, ssim=0.011512697339057923, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.01335214753402397, event=0.0021495618368498983, ssim=0.011202585697174073, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 66845 GSs duplicated, 1237 GSs split. Now having 373452 GSs.
+Step 1200: 110801 GSs pruned. Now having 262651 GSs.
+Step 1500: 73986 GSs duplicated, 735 GSs split. Now having 337372 GSs.
+Step 1500: 44058 GSs pruned. Now having 293314 GSs.
+iter 1500, loss=0.011858458445640282, event=0.0017152517300564796, ssim=0.010143206715583802, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+31it [1:33:52, 286.42s/it]Process frame 32
+Tracking frame32 to frame32
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.861022947442393e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 725059  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02927604078434129, event=0.010146887927187194, ssim=0.019129152857154098
+iter 100, loss=0.02137925363531123, event=0.005462816690547423, ssim=0.015916436944763808
+iter 200, loss=0.02065596350433215, event=0.005148423927101559, ssim=0.01550753957723059
+======================= finished tracking  =========================
+32it [1:34:04, 204.18s/it]Process frame 33
+Tracking frame33 to frame33
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-8.583068851208964e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 652090  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.030409557137144484, event=0.010729251819559082, ssim=0.0196803053175854
+iter 100, loss=0.022789081136532784, event=0.005993422870243746, ssim=0.016795658266289037
+iter 200, loss=0.0230385138877526, event=0.00615692793299137, ssim=0.01688158595476123
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 294314
+*******************************  BA events_num: 23002922  *********************************
+incremental sampling number: 98
+****events_per_seg=232352, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=2.4000000953674316, t_data_max=4.399999141693115
+control knot ts: [np.float32(2.3999002), 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, np.float32(4.4000993)]
+iter 0, loss=0.01861618614755571, event=0.0036853823717683553, ssim=0.014930803775787356, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01317968768067658, event=0.002021106304600835, ssim=0.011158581376075746, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013254037792794406, event=0.0021295228553935884, ssim=0.011124514937400819, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 70904 GSs duplicated, 1337 GSs split. Now having 366555 GSs.
+Step 1200: 106836 GSs pruned. Now having 259719 GSs.
+Step 1500: 75961 GSs duplicated, 819 GSs split. Now having 336499 GSs.
+Step 1500: 45095 GSs pruned. Now having 291404 GSs.
+iter 1500, loss=0.014405916198156773, event=0.0024716203054413197, ssim=0.011934295892715455, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+33it [1:39:28, 240.25s/it]Process frame 34
+Tracking frame34 to frame34
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.76837158203125e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 593683  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.028372379694185833, event=0.009146511569203371, ssim=0.019225868124982462
+iter 100, loss=0.022417806839337022, event=0.005867689476292845, ssim=0.016550117363044178
+iter 200, loss=0.0222507245435107, event=0.0058008971055956374, ssim=0.016449827437915066
+======================= finished tracking  =========================
+34it [1:39:41, 171.93s/it]Process frame 35
+Tracking frame35 to frame35
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743128535363e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 553459  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03165507676213754, event=0.010859628846305633, ssim=0.0207954479158319
+iter 100, loss=0.024104209704815, event=0.006598302527687167, ssim=0.017505907177127834
+iter 200, loss=0.02495608849816697, event=0.006968618438836112, ssim=0.017987470059330858
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 292404
+*******************************  BA events_num: 22832359  *********************************
+incremental sampling number: 98
+****events_per_seg=230630, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=2.6000006198883057, t_data_max=4.599999904632568
+control knot ts: [np.float32(2.5999007), 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, np.float32(4.6001)]
+iter 0, loss=0.01735476036788896, event=0.0031989618134684863, ssim=0.014155798554420472, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012968827821314335, event=0.0019709280505776404, ssim=0.010997899770736695, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.012869538593804464, event=0.0019730299001093953, ssim=0.01089650869369507, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 71814 GSs duplicated, 1405 GSs split. Now having 365623 GSs.
+Step 1200: 103575 GSs pruned. Now having 262048 GSs.
+Step 1500: 77085 GSs duplicated, 893 GSs split. Now having 340026 GSs.
+Step 1500: 46829 GSs pruned. Now having 293197 GSs.
+iter 1500, loss=0.012306182578904555, event=0.0017419685877393932, ssim=0.010564213991165161, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+35it [1:45:07, 218.04s/it]Process frame 36
+Tracking frame36 to frame36
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.9073486345888568e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 529132  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.025714864109995156, event=0.007137744826280286, ssim=0.01857711928371487
+iter 100, loss=0.0233567911352755, event=0.005926617844832726, ssim=0.017430173290442774
+iter 200, loss=0.022894070767029064, event=0.005758859223203285, ssim=0.01713521154382578
+======================= finished tracking  =========================
+36it [1:45:19, 156.41s/it]Process frame 37
+Tracking frame37 to frame37
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.861022947442393e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 523131  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.027813310003838323, event=0.007785374941480989, ssim=0.020027935062357335
+iter 100, loss=0.024851258396419683, event=0.006008914632208572, ssim=0.018842343764211112
+iter 200, loss=0.024651820861154566, event=0.005994302139133101, ssim=0.018657518722021465
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 294197
+*******************************  BA events_num: 22063642  *********************************
+incremental sampling number: 98
+****events_per_seg=222865, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=2.8000001907348633, t_data_max=4.799999713897705
+control knot ts: [np.float32(2.7999003), 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, np.float32(4.8001)]
+iter 0, loss=0.017806630794657396, event=0.003380295102251694, ssim=0.0144263356924057, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012677023389842362, event=0.001844642737414688, ssim=0.010832380652427675, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013043521655490624, event=0.0018827343115117399, ssim=0.011160787343978884, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 72802 GSs duplicated, 1560 GSs split. Now having 368559 GSs.
+Step 1200: 103548 GSs pruned. Now having 265011 GSs.
+Step 1500: 77610 GSs duplicated, 964 GSs split. Now having 343585 GSs.
+Step 1500: 47459 GSs pruned. Now having 296126 GSs.
+iter 1500, loss=0.013682250294368715, event=0.0019652645918540657, ssim=0.01171698570251465, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+37it [1:50:48, 208.17s/it]Process frame 38
+Tracking frame38 to frame38
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.8146972691777137e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 554331  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02463811619340545, event=0.005781783034888844, ssim=0.018856333158516606
+iter 100, loss=0.024039339289789685, event=0.005531798416026611, ssim=0.018507540873763075
+iter 200, loss=0.023915917921251823, event=0.005485210992992603, ssim=0.01843070692825922
+======================= finished tracking  =========================
+38it [1:51:01, 149.49s/it]Process frame 39
+Tracking frame39 to frame39
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.76837158203125e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 636470  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03068496141093879, event=0.008784186125677492, ssim=0.021900775285261298
+iter 100, loss=0.026481234311694912, event=0.006578571270920203, ssim=0.01990266304077471
+iter 200, loss=0.026393192725225827, event=0.006516925037590512, ssim=0.019876267687635313
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 297126
+*******************************  BA events_num: 20877637  *********************************
+incremental sampling number: 98
+****events_per_seg=210885, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=3.0, t_data_max=4.999999523162842
+control knot ts: [np.float32(2.9999), 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, np.float32(5.0000997)]
+iter 0, loss=0.01684422362362966, event=0.003052948599215597, ssim=0.013791275024414063, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01276361568248831, event=0.0018338559416588396, ssim=0.01092975974082947, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013188480803510174, event=0.0019289911480154841, ssim=0.01125948965549469, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 74016 GSs duplicated, 1746 GSs split. Now having 372888 GSs.
+Step 1200: 106057 GSs pruned. Now having 266831 GSs.
+Step 1500: 78865 GSs duplicated, 1096 GSs split. Now having 346792 GSs.
+Step 1500: 47381 GSs pruned. Now having 299411 GSs.
+iter 1500, loss=0.013231622187886389, event=0.0019263895438052716, ssim=0.011305232644081117, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+39it [1:56:30, 203.44s/it]Process frame 40
+Tracking frame40 to frame40
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743128535363e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 701826  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02729214817421479, event=0.007330681388937729, ssim=0.019961466785277063
+iter 100, loss=0.02562561070773077, event=0.006714894528419521, ssim=0.01891071617931125
+iter 200, loss=0.025504603988669175, event=0.006644512714461865, ssim=0.01886009127420731
+======================= finished tracking  =========================
+40it [1:56:43, 146.28s/it]Process frame 41
+Tracking frame41 to frame41
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.9073486345888568e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 759497  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.027686697029825534, event=0.0078774895758883, ssim=0.019809207453937234
+iter 100, loss=0.027748947903170295, event=0.007800204905666339, ssim=0.019948742997503956
+iter 200, loss=0.027223037261720675, event=0.007562688280706616, ssim=0.01966034898101406
+======================= finished tracking  =========================
+============================= point num:670 ===============================
+Number of New GS: 670
+Number of GS: 300081
+*******************************  BA events_num: 19460201  *********************************
+incremental sampling number: 97
+****events_per_seg=196567, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=3.200000047683716, t_data_max=5.199999809265137
+control knot ts: [np.float32(3.1999002), 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, np.float32(5.2001)]
+iter 0, loss=0.01851014798274264, event=0.0033943665563128888, ssim=0.015115781426429751, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01269756872439757, event=0.001733675787691027, ssim=0.010963892936706543, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.014351607253775002, event=0.0020773014333099124, ssim=0.01227430582046509, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 75993 GSs duplicated, 1895 GSs split. Now having 377969 GSs.
+Step 1200: 105393 GSs pruned. Now having 272576 GSs.
+Step 1500: 81982 GSs duplicated, 1153 GSs split. Now having 355711 GSs.
+Step 1500: 49252 GSs pruned. Now having 306459 GSs.
+iter 1500, loss=0.015357177862897517, event=0.002328910240903497, ssim=0.01302826762199402, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+41it [2:02:12, 201.09s/it]Process frame 42
+Tracking frame42 to frame42
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.861022947442393e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 821641  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.024880547104379716, event=0.006319189417281265, ssim=0.01856135768709845
+iter 100, loss=0.0243679280971123, event=0.00608036376323583, ssim=0.01828756433387647
+iter 200, loss=0.0241300621968345, event=0.006039903903151967, ssim=0.018090158293682535
+======================= finished tracking  =========================
+42it [2:02:25, 144.64s/it]Process frame 43
+Tracking frame43 to frame43
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.8146972691777137e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 884507  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.026349200804353812, event=0.0066911740966505056, ssim=0.019658026707703308
+iter 100, loss=0.02610907261869551, event=0.006601217000085717, ssim=0.019507855618609793
+iter 200, loss=0.02689256558590898, event=0.006958523174124273, ssim=0.01993404241178471
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 307459
+*******************************  BA events_num: 17951032  *********************************
+incremental sampling number: 97
+****events_per_seg=181323, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=3.4000000953674316, t_data_max=5.399999618530273
+control knot ts: [np.float32(3.3999002), 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, 5.2, 5.3, np.float32(5.4000998)]
+iter 0, loss=0.01894552822923288, event=0.0033876937231980264, ssim=0.015557834506034852, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012729665965307505, event=0.0015596613590605558, ssim=0.01117000460624695, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013231084308354187, event=0.0018028223130386323, ssim=0.011428261995315554, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 77942 GSs duplicated, 1894 GSs split. Now having 387295 GSs.
+Step 1200: 109507 GSs pruned. Now having 277788 GSs.
+Step 1500: 85139 GSs duplicated, 1255 GSs split. Now having 364182 GSs.
+Step 1500: 51416 GSs pruned. Now having 312766 GSs.
+iter 1500, loss=0.014135776803595948, event=0.0021494067169260233, ssim=0.011986370086669924, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+43it [2:07:54, 199.92s/it]Process frame 44
+Tracking frame44 to frame44
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.76837158203125e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 947554  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.03088911073034288, event=0.009533512579928424, ssim=0.02135559815041446
+iter 100, loss=0.024054719843544254, event=0.0056501179278832135, ssim=0.01840460191566104
+iter 200, loss=0.024261947639711533, event=0.005781090347476052, ssim=0.018480857292235482
+======================= finished tracking  =========================
+44it [2:08:06, 143.72s/it]Process frame 45
+Tracking frame45 to frame45
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-9.536743128535363e-08    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1008423  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02629980175950012, event=0.006501016678873808, ssim=0.01979878508062631
+iter 100, loss=0.026694573615721976, event=0.006563651156562708, ssim=0.02013092245915927
+iter 200, loss=0.026560678584296567, event=0.006540697655509083, ssim=0.020019980928787484
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 313766
+*******************************  BA events_num: 16680727  *********************************
+incremental sampling number: 97
+****events_per_seg=168492, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=3.6000001430511475, t_data_max=5.599999904632568
+control knot ts: [np.float32(3.5999002), 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, np.float32(5.6001)]
+iter 0, loss=0.021395815778523685, event=0.004436948467046022, ssim=0.016958867311477662, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.016254874439910055, event=0.002637675376608968, ssim=0.013617199063301087, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.014548063367838041, event=0.002020812720293179, ssim=0.012527250647544862, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 81091 GSs duplicated, 2157 GSs split. Now having 397014 GSs.
+Step 1200: 110102 GSs pruned. Now having 286912 GSs.
+Step 1500: 88354 GSs duplicated, 1371 GSs split. Now having 376637 GSs.
+Step 1500: 55111 GSs pruned. Now having 321526 GSs.
+iter 1500, loss=0.014364617336541416, event=0.0019408820755779745, ssim=0.012423735260963442, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+45it [2:13:37, 199.75s/it]Process frame 46
+Tracking frame46 to frame46
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-1.9073486345888568e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1061800  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.030026598670495917, event=0.008954130108119525, ssim=0.021072468562376392
+iter 100, loss=0.023623278349741633, event=0.005410459929573251, ssim=0.01821281842016838
+iter 200, loss=0.023591522665181105, event=0.005404118938805147, ssim=0.018187403726375957
+======================= finished tracking  =========================
+46it [2:13:50, 143.65s/it]Process frame 47
+Tracking frame47 to frame47
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-2.861022947442393e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1103217  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.027396636623398196, event=0.006746303482987991, ssim=0.020650333140410204
+iter 100, loss=0.0266096122712853, event=0.006179233104594994, ssim=0.020430379166690306
+iter 200, loss=0.02655523927103742, event=0.006262338022344872, ssim=0.020292901248692548
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 322526
+*******************************  BA events_num: 16049994  *********************************
+incremental sampling number: 97
+****events_per_seg=162121, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=3.8000006675720215, t_data_max=5.799999713897705
+control knot ts: [np.float32(3.7999008), 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, np.float32(5.8001)]
+iter 0, loss=0.02199514412786812, event=0.0048356201639398935, ssim=0.017159523963928225, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.012908815895207227, event=0.001611870084889233, ssim=0.011296945810317994, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.013976166230859236, event=0.0018402051751036197, ssim=0.012135961055755616, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 84595 GSs duplicated, 2338 GSs split. Now having 409459 GSs.
+Step 1200: 112764 GSs pruned. Now having 296695 GSs.
+Step 1500: 91147 GSs duplicated, 1486 GSs split. Now having 389328 GSs.
+Step 1500: 57916 GSs pruned. Now having 331412 GSs.
+iter 1500, loss=0.013129337115678937, event=0.0016421052650548518, ssim=0.011487231850624086, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+47it [2:19:13, 197.73s/it]Process frame 48
+Tracking frame48 to frame48
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-3.8146972691777137e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1103809  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.023743280340151943, event=0.005158993984007131, ssim=0.018584286356144814
+iter 100, loss=0.02463833037164958, event=0.005357161929936254, ssim=0.019281168441713327
+iter 200, loss=0.023939058968517647, event=0.00521731394511777, ssim=0.018721745023399877
+======================= finished tracking  =========================
+48it [2:19:26, 142.19s/it]Process frame 49
+Tracking frame49 to frame49
+add a new control knot
+&&&&&&&&&&&        WARNNING: t_data_end-frame_ts_all[-1]=-4.76837158203125e-07    &&&&&&&&&&&
+&&&&&&&&&&&        Hard assignment:  frame_ts_all[-1] = t_data_end-1e-4    &&&&&&&&&&&
+*******************************  events_num: 1095443  *********************************
+************************  N_window for init: 299999  ***************
+iter 0, loss=0.02684124354587209, event=0.006143691485667105, ssim=0.020697552060204984
+iter 100, loss=0.025633052955192415, event=0.0056097404420153065, ssim=0.020023312513177106
+iter 200, loss=0.025351701419955745, event=0.005542329262980024, ssim=0.01980937215697572
+======================= finished tracking  =========================
+============================= point num:1000 ===============================
+Number of New GS: 1000
+Number of GS: 332412
+*******************************  BA events_num: 16003711  *********************************
+incremental sampling number: 97
+****events_per_seg=161653, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=4.0, t_data_max=5.999999523162842
+control knot ts: [np.float32(3.9999), 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, np.float32(6.0000997)]
+iter 0, loss=0.022717680693604057, event=0.004195067645050585, ssim=0.01852261304855347, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01452182980021462, event=0.001992106155958027, ssim=0.012529723644256594, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.01326281075947918, event=0.001657661251956597, ssim=0.011605149507522583, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 87354 GSs duplicated, 2517 GSs split. Now having 422283 GSs.
+Step 1200: 114021 GSs pruned. Now having 308262 GSs.
+Step 1500: 95566 GSs duplicated, 1736 GSs split. Now having 405564 GSs.
+Step 1500: 61570 GSs pruned. Now having 343994 GSs.
+iter 1500, loss=0.01457464860752225, event=0.0020344142802059648, ssim=0.012540234327316286, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+49it [2:24:58, 199.17s/it]49it [2:24:58, 177.52s/it]
+******************************** global BA ********************************
+*******************************  BA events_num: 40655052  *********************************
+incremental sampling number: 242
+****events_per_seg=166619, min_n_winsize=80000,max_n_winsize=400100, 
+****t_data_min=1.100000023841858, t_data_max=5.999999523162842
+control knot ts: [np.float32(1.0999), 1.2, 1.3, 1.4, 1.5, 1.6001, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9, np.float32(6.0000997)]
+iter 0, loss=0.02693084976403043, event=0.006962238762062044, ssim=0.019968611001968384, white=0.0, noevent=0.0, tr=0.0
+iter 500, loss=0.01569061494898051, event=0.0028788606030866505, ssim=0.012811754345893862, white=0.0, noevent=0.0, tr=0.0
+iter 1000, loss=0.014524449231103064, event=0.002098744036629796, ssim=0.012425705194473268, white=0.0, noevent=0.0, tr=0.0
+Step 1200: 101870 GSs duplicated, 2962 GSs split. Now having 448826 GSs.
+Step 1200: 140604 GSs pruned. Now having 308222 GSs.
+Step 1500: 106243 GSs duplicated, 1727 GSs split. Now having 416192 GSs.
+Step 1500: 70674 GSs pruned. Now having 345518 GSs.
+iter 1500, loss=0.01354363684426062, event=0.0019923079467844217, ssim=0.011551328897476197, white=0.0, noevent=0.0, tr=0.0
+Step 1800: 108100 GSs duplicated, 1411 GSs split. Now having 455029 GSs.
+Step 1800: 71406 GSs pruned. Now having 383623 GSs.
+iter 2000, loss=0.016167661943472925, event=0.0026915953541174534, ssim=0.01347606658935547, white=0.0, noevent=0.0, tr=0.0
+Step 2100: 112254 GSs duplicated, 1246 GSs split. Now having 497123 GSs.
+Step 2100: 74223 GSs pruned. Now having 422900 GSs.
+Step 2400: 112943 GSs duplicated, 1219 GSs split. Now having 537062 GSs.
+Step 2400: 76290 GSs pruned. Now having 460772 GSs.
+iter 2500, loss=0.015033006499288605, event=0.002428149412153289, ssim=0.012604857087135317, white=0.0, noevent=0.0, tr=0.0
+Step 2700: 117195 GSs duplicated, 1180 GSs split. Now having 579147 GSs.
+Step 2700: 76921 GSs pruned. Now having 502226 GSs.
+iter 3000, loss=0.013968462093034761, event=0.002245910508790985, ssim=0.011722551584243776, white=0.0, noevent=0.0, tr=0.0
+998724, event=0.002189989212201908, ssim=0.012096514105796815, white=0.0, noevent=0.0, tr=0.0
+iter 3500, loss=0.013969888706924396, event=0.002252495308639482, ssim=0.011717393398284913, white=0.0, noevent=0.0, tr=0.0
+iter 4000, loss=0.01468055658740923, event=0.002382290295790881, ssim=0.01229826629161835, white=0.0, noevent=0.0, tr=0.0
+======================= finished BA  =========================
+******* use interpolated pose to render images *******
+================ finished ================

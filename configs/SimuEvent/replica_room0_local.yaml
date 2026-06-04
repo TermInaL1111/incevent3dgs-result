@@ -1,0 +1,5 @@
+inherit_from: configs/SimuEvent/replica_room0.yaml
+depthEst_pretrained_model_path: /root/.cache/huggingface/models--prs-eth--marigold-lcm-v1-0/snapshots/04a73502f7fd8fc5e59947b9df3b2266d71d6849
+data:
+  datadir: /data/event_replica/room0
+  output: output/final/room0
